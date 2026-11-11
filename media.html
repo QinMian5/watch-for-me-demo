@@ -930,6 +930,24 @@ function bandIn() {
 function bandState() { document.body.classList.toggle('band-in', !!bandIn()); }
 function bandAway() { if (bandIn()) { scrollTo(0, document.scrollingElement.scrollHeight); bandState(); } }
 addEventListener('scroll', bandState, {passive: true});
+/* A wheel gesture stays with the scroller it started on, so handing over between the page and a pane would stall until the next
+   gesture. While the band exists the page routes the wheel itself: down fills the page first and passes the rest to the pane under
+   the pointer, up empties that pane first and passes the rest to the page. */
+addEventListener('wheel', e => {
+  const band = document.getElementById('band');
+  if (!isSplit() || !band || band.hidden || e.ctrlKey) return;
+  const dy = e.deltaY * (e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? innerHeight : 1);
+  if (!dy || Math.abs(e.deltaX) > Math.abs(dy)) return;
+  const pane = document.elementFromPoint(e.clientX, e.clientY)?.closest('.pane');
+  if (!pane && !e.target.closest?.('.band')) return;
+  e.preventDefault();
+  const page = document.scrollingElement, room = page.scrollHeight - innerHeight - scrollY;
+  const pageMove = dy > 0 ? Math.min(dy, Math.max(0, room)) : -Math.min(-dy - (pane ? Math.min(-dy, pane.scrollTop) : 0), scrollY);
+  const paneMove = dy - pageMove;
+  if (pageMove) scrollBy(0, pageMove);
+  if (pane && paneMove) { master = pane; pane.scrollTop += paneMove; }
+  bandState();
+}, {passive: false});
 /* Switching language changes every paragraph's height; keep the topmost visible reader block where it was. */
 function keepReaderPlace(change) {
   const pane = document.querySelector('.pane-reader'), scroller = isSplit() ? pane : document.scrollingElement;
