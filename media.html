@@ -922,7 +922,8 @@ function keepReaderPlace(change) {
     if (!split) return;
     requestAnimationFrame(() => {
       syncAnch = buildAnchors();
-      if (master === pane) ease = startEase(pane, notes, lineAt(pane, pane.scrollTop));
+      const driver = master || pane;
+      ease = startEase(driver, driver === pane ? notes : pane, lineAt(driver, driver.scrollTop));
       syncHold = false;
     });
   });
