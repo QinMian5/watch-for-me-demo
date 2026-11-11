@@ -88,6 +88,7 @@ details.pop>summary:hover,details.pop[open]>summary{background:var(--tint);color
 details.pop>summary::-webkit-details-marker{display:none}
 .pop-body{position:absolute;top:calc(100% + 4px);left:0;z-index:30;background:var(--panel);border:1px solid var(--line);border-radius:9px;box-shadow:0 6px 24px rgba(0,0,0,.14);padding:10px 12px;width:min(420px,calc(100vw - 32px));max-height:60vh;overflow:auto;font-size:14px;line-height:1.55;color:var(--fg);white-space:normal}
 .hdr-tools .pop-body{left:auto;right:0}
+#toc .pop-body{width:min(560px,calc(100vw - 32px))}
 .pop-body h3{margin:10px 0 4px;font-size:13px;color:var(--muted);font-weight:600}
 .pop-body h3:first-child{margin-top:0}
 .pop-body ul{margin:0;padding:0;list-style:none}
@@ -210,7 +211,7 @@ dialog#lb .cap{color:#ddd;font-size:13px;padding:4px 10px;background:#111}
   .bar-label{display:none}
   .chips{flex-wrap:nowrap;overflow-x:auto;max-width:100%;scrollbar-width:none}
   details.pop{position:static}
-  .pop-body,.hdr-tools .pop-body{left:12px;right:12px;top:auto;width:auto;margin-top:4px}
+  .pop-body,.hdr-tools .pop-body,#toc .pop-body{left:12px;right:12px;top:auto;width:auto;margin-top:4px}
   .col{padding:12px 12px 120px}
   .pane h2{font-size:17px}
   .pane h3{font-size:15px}
