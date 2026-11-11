@@ -118,7 +118,9 @@ details.pop>summary::-webkit-details-marker{display:none}
 .split{display:block}
 @media (min-width:1100px){
   body.is-split .split{height:calc(100dvh - var(--hdr-h,0px));display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr)}
-  body.is-split .pane{overflow:auto;min-height:0}
+  html:has(body.is-split){scrollbar-width:none}
+  html:has(body.is-split)::-webkit-scrollbar{display:none}
+  body.is-split .pane{overflow:auto;min-height:0;scrollbar-gutter:stable}
   body.is-split.band-in .pane{overflow:hidden}
   body.is-split .band{border-bottom:1px solid var(--line)}
   body.is-split .band .col{max-width:760px;padding:14px 20px 10px}
@@ -851,7 +853,7 @@ function runFilters() {
   const reader = document.querySelector('.pane-reader'), notes = document.querySelector('.pane-notes');
   const on = S.spk.size > 0;
   reader.querySelectorAll('.turn').forEach(turn => { turn.hidden = on && !S.spk.has(turn.dataset.spk === 'none' ? null : turn.dataset.spk); });
-  if (notes) notes.querySelectorAll('.para').forEach(p => { const ids = p.dataset.spk ? p.dataset.spk.split(' ') : []; p.hidden = on && ids.length > 0 && !ids.some(i => S.spk.has(i)); });
+  if (notes) document.querySelectorAll('.pane-notes .para, .band .para').forEach(p => { const ids = p.dataset.spk ? p.dataset.spk.split(' ') : []; p.hidden = on && ids.length > 0 && !ids.some(i => S.spk.has(i)); });
 
   const needle = fold(S.q.trim()).low; S.hits = []; let other = 0;
   if (needle) {
@@ -911,11 +913,12 @@ function applyPanes() {
 const hdrSize = new ResizeObserver(() => sizeSplit());
 function placeOrient(split) {
   const band = document.getElementById('band'), c = document.querySelector('.pane-notes');
-  if (!band || !orientEls.length) return;
-  const home = split ? band.firstElementChild : c.firstElementChild;
-  if (orientEls[0].parentNode !== home) split ? home.append(...orientEls) : home.prepend(...orientEls);
-  band.hidden = !split;
   hdrSize.disconnect(); hdrSize.observe(document.querySelector('.hdr'));
+  if (band && orientEls.length) {
+    const home = split ? band.firstElementChild : c.firstElementChild;
+    if (orientEls[0].parentNode !== home) split ? home.append(...orientEls) : home.prepend(...orientEls);
+    band.hidden = !split;
+  }
   sizeSplit();
 }
 function sizeSplit() {
@@ -938,6 +941,9 @@ addEventListener('wheel', e => {
   if (!isSplit() || !band || band.hidden || e.ctrlKey) return;
   const dy = e.deltaY * (e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? innerHeight : 1);
   if (!dy || Math.abs(e.deltaX) > Math.abs(dy)) return;
+  /* A popup that can still scroll this way keeps the wheel to itself. */
+  const pop = e.target.closest?.('.pop-body');
+  if (pop && (dy > 0 ? pop.scrollTop + pop.clientHeight < pop.scrollHeight - 1 : pop.scrollTop > 0)) return;
   const pane = document.elementFromPoint(e.clientX, e.clientY)?.closest('.pane');
   if (!pane && !e.target.closest?.('.band')) return;
   e.preventDefault();
