@@ -135,6 +135,7 @@ details.pop>summary::-webkit-details-marker{display:none}
 .sec-time{font-size:13px;font-weight:400;color:var(--muted);margin-left:8px;font-variant-numeric:tabular-nums}
 .sec-title .orig{display:block;font-weight:650}
 .sec-title .trans{display:block;font-weight:650}
+.sec-title .sec-time{display:block;margin-left:0}
 
 /* Language switching changes CSS only and never rebuilds the DOM */
 [data-lang=orig] .trans{display:none!important}
@@ -157,7 +158,7 @@ details.pop>summary::-webkit-details-marker{display:none}
 [data-lang=both] .tx-wrap{display:grid;grid-template-columns:1fr 1fr;gap:18px}
 [data-lang=both] .sec-title{display:grid;grid-template-columns:1fr 1fr;column-gap:18px}
 [data-lang=both] .sec-title .second{font-size:inherit;font-weight:650;color:inherit}
-[data-lang=both] .sec-time{grid-column:1/-1;margin-left:0}
+[data-lang=both] .sec-time{grid-column:1/-1}
 .meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:2px;font-size:13px;line-height:1.5}
 .meta:empty{display:none}
 .t-row{display:flex;gap:6px;align-items:baseline}
@@ -786,7 +787,7 @@ function renderHeader() {
       h('h1', {title, text: title}),
       h('div', {class: 'views'},
         NOTES ? h('span', {id: 'tabs'}, seg(S.view, [{v: 'notes', t: t('notes')}, {v: 'reader', t: t('reader')}], v => { setView(v, true); rerenderChrome(); runFilters(); })) : null,
-        hasTrans ? h('span', {id: 'langseg'}, seg(S.lang, [{v: 'both', t: t('both')}, {v: 'orig', t: t('orig')}, {v: 'trans', t: t('trans')}], v => { S.lang = v; rootAttrs(); rerenderChrome(); runFilters(); })) : null)),
+        hasTrans ? h('span', {id: 'langseg'}, seg(S.lang, [{v: 'both', t: t('both')}, {v: 'orig', t: t('orig')}, {v: 'trans', t: t('trans')}], v => keepReaderPlace(() => { S.lang = v; rootAttrs(); rerenderChrome(); runFilters(); }))) : null)),
     infoPop(),
     h('div', {class: 'hdr-tools'},
       h('span', {class: 'hint', id: 'other'}),
@@ -893,6 +894,20 @@ function applyPanes() {
   const seg = tabs && tabs.querySelectorAll('button');
   if (seg && seg.length) { seg[0].setAttribute('aria-pressed', String(S.view === 'notes')); seg[1].setAttribute('aria-pressed', String(S.view === 'reader')); }
   showBack();
+}
+/* Switching language changes every paragraph's height; keep the topmost visible reader block where it was. */
+function keepReaderPlace(change) {
+  const pane = document.querySelector('.pane-reader'), scroller = isSplit() ? pane : document.scrollingElement;
+  const top = isSplit() ? pane.getBoundingClientRect().top : Math.max(...['.hdr', '.hdr-sticky'].map(s => document.querySelector(s).getBoundingClientRect().bottom));
+  const below = el => el.getBoundingClientRect().bottom > top;
+  /* A skipped off-screen turn reports stale positions for its blocks, so check the turn first. */
+  const block = pane && [...pane.querySelectorAll('.block')].find(b => below(b.closest('.turn')) && below(b));
+  const before = block && block.getBoundingClientRect().top;
+  const fix = () => { if (block) scroller.scrollTop += block.getBoundingClientRect().top - before; };
+  scroller.style.overflowAnchor = 'none';
+  change(); fix();
+  /* Off-screen turns keep placeholder heights until laid out, which can cap the first correction. */
+  requestAnimationFrame(() => { fix(); scroller.style.overflowAnchor = ''; });
 }
 function rerenderChrome() {
   const old = document.querySelector('.hdr'); const q = document.getElementById('q'); const had = document.activeElement === q;
