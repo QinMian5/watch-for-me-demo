@@ -902,8 +902,14 @@ function keepReaderPlace(change) {
   const below = el => el.getBoundingClientRect().bottom > top;
   /* A skipped off-screen turn reports stale positions for its blocks, so check the turn first. */
   const block = pane && [...pane.querySelectorAll('.block')].find(b => below(b.closest('.turn')) && below(b));
-  const before = block && block.getBoundingClientRect().top;
-  const fix = () => { if (block) scroller.scrollTop += block.getBoundingClientRect().top - before; };
+  const box = block && block.getBoundingClientRect(), before = box && box.top;
+  /* A block cut by the top edge keeps the same share of itself above the edge, so a shorter block still crosses it. */
+  const share = box && before < top ? (top - before) / box.height : 0;
+  const fix = () => {
+    if (!block) return;
+    const now = block.getBoundingClientRect();
+    scroller.scrollTop += now.top - (share ? top - share * now.height : before);
+  };
   scroller.style.overflowAnchor = 'none';
   change(); fix();
   /* Off-screen turns keep placeholder heights until laid out, which can cap the first correction. */
