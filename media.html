@@ -899,14 +899,15 @@ function applyPanes() {
 function keepReaderPlace(change) {
   const pane = document.querySelector('.pane-reader'), scroller = isSplit() ? pane : document.scrollingElement;
   const top = isSplit() ? pane.getBoundingClientRect().top : Math.max(...['.hdr', '.hdr-sticky'].map(s => document.querySelector(s).getBoundingClientRect().bottom));
-  const below = el => el.getBoundingClientRect().bottom > top;
+  const bottom = isSplit() ? pane.getBoundingClientRect().bottom : innerHeight;
+  const seen = el => { const r = el.getBoundingClientRect(); return r.bottom > top && r.top < bottom; };
   /* A skipped off-screen turn reports stale positions for its blocks, so check the turn first. */
-  const block = pane && [...pane.querySelectorAll('.block')].find(b => below(b.closest('.turn')) && below(b));
-  const box = block && block.getBoundingClientRect(), before = box && box.top;
+  const block = pane && [...pane.querySelectorAll('.block')].find(b => seen(b.closest('.turn')) && seen(b));
+  if (!block) { change(); return; }
+  const box = block.getBoundingClientRect(), before = box.top;
   /* A block cut by the top edge keeps the same share of itself above the edge, so a shorter block still crosses it. */
-  const share = box && before < top ? (top - before) / box.height : 0;
+  const share = before < top ? (top - before) / box.height : 0;
   const fix = () => {
-    if (!block) return;
     const now = block.getBoundingClientRect();
     scroller.scrollTop += now.top - (share ? top - share * now.height : before);
   };
