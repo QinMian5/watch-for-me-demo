@@ -1,0 +1,2163 @@
+{
+  "media": {
+    "kind": "video",
+    "title": "Agentics Day: MCP + Agents: MCP in 2026: Context is All You Need - David Soria Parra, Anthropic",
+    "source_type": "online-video",
+    "origin": "https://www.youtube.com/watch?v=k-bfLnR0VGo",
+    "source_id": "k-bfLnR0VGo",
+    "duration_seconds": 1757.936,
+    "spoken_languages": [
+      "en"
+    ],
+    "target_language": "zh-CN",
+    "reading_type": "expository",
+    "transcript_provenance": "platform-auto",
+    "asr": null
+  },
+  "speakers": [
+    {
+      "id": "SPK001",
+      "name": "David Soria Parra"
+    },
+    {
+      "id": "SPK002",
+      "name": "提问观众"
+    },
+    {
+      "id": "SPK003",
+      "name": "主持人"
+    }
+  ],
+  "speaker_turns": [
+    {
+      "speaker": "SPK001",
+      "start": "00:00:00.031",
+      "end": "00:01:00.865"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:01:01.456",
+      "end": "00:01:02.165"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:01:02.300",
+      "end": "00:02:22.962"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:02:24.633",
+      "end": "00:02:54.299"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:02:54.518",
+      "end": "00:03:19.510"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:03:20.101",
+      "end": "00:03:22.970"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:03:23.105",
+      "end": "00:03:28.032"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:03:28.775",
+      "end": "00:05:11.307"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:05:11.965",
+      "end": "00:05:14.986"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:05:15.053",
+      "end": "00:05:42.070"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:05:42.931",
+      "end": "00:06:51.967"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:06:52.726",
+      "end": "00:07:17.887"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:07:20.114",
+      "end": "00:07:21.953"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:07:22.679",
+      "end": "00:07:36.803"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:07:38.170",
+      "end": "00:08:23.092"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:08:23.817",
+      "end": "00:09:04.148"
+    },
+    {
+      "speaker": "SPK002",
+      "start": "00:09:05.161",
+      "end": "00:09:05.887"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:09:05.887",
+      "end": "00:09:05.988"
+    },
+    {
+      "speaker": "SPK002",
+      "start": "00:09:05.988",
+      "end": "00:09:08.384"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:09:08.384",
+      "end": "00:09:32.228"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:09:32.785",
+      "end": "00:09:56.140"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:09:58.132",
+      "end": "00:10:49.567"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:10:50.225",
+      "end": "00:11:04.653"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:11:04.822",
+      "end": "00:11:11.504"
+    },
+    {
+      "speaker": "SPK002",
+      "start": "00:11:11.504",
+      "end": "00:11:11.521"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:11:12.517",
+      "end": "00:11:28.784"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:11:29.459",
+      "end": "00:11:41.103"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:11:41.339",
+      "end": "00:11:45.389"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:11:45.676",
+      "end": "00:12:13.317"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:12:13.823",
+      "end": "00:12:54.053"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:12:54.847",
+      "end": "00:13:13.797"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:13:14.135",
+      "end": "00:13:14.928"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:13:15.822",
+      "end": "00:13:29.103"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:13:29.474",
+      "end": "00:13:35.279"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:13:35.549",
+      "end": "00:13:56.305"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:13:56.626",
+      "end": "00:14:51.503"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:14:52.465",
+      "end": "00:15:20.647"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:15:21.305",
+      "end": "00:15:56.995"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:15:58.362",
+      "end": "00:16:00.033"
+    },
+    {
+      "speaker": "SPK002",
+      "start": "00:16:00.033",
+      "end": "00:16:00.978"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:16:00.978",
+      "end": "00:16:11.035"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:16:11.862",
+      "end": "00:16:16.925"
+    },
+    {
+      "speaker": "SPK002",
+      "start": "00:16:16.925",
+      "end": "00:16:21.515"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:16:21.683",
+      "end": "00:16:25.008"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:16:26.037",
+      "end": "00:16:42.862"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:16:43.469",
+      "end": "00:16:50.287"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:16:50.928",
+      "end": "00:16:52.413"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:16:53.206",
+      "end": "00:17:05.913"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:17:06.503",
+      "end": "00:17:12.342"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:17:12.798",
+      "end": "00:17:39.882"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:17:40.135",
+      "end": "00:17:49.484"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:17:49.636",
+      "end": "00:19:07.852"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:19:08.459",
+      "end": "00:19:38.463"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:19:38.952",
+      "end": "00:19:58.612"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:19:59.067",
+      "end": "00:20:19.368"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:20:20.212",
+      "end": "00:20:20.667"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:20:21.393",
+      "end": "00:20:37.610"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:20:39.128",
+      "end": "00:20:58.096"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:20:58.298",
+      "end": "00:21:42.359"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:21:43.304",
+      "end": "00:21:43.928"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:21:45.008",
+      "end": "00:21:59.572"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:22:00.382",
+      "end": "00:22:32.917"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:22:34.503",
+      "end": "00:22:38.418"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:22:38.603",
+      "end": "00:22:43.582"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:22:44.392",
+      "end": "00:23:17.686"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:23:18.918",
+      "end": "00:23:41.851"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:23:42.307",
+      "end": "00:25:06.901"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:25:07.255",
+      "end": "00:25:29.716"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:25:29.969",
+      "end": "00:26:23.834"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:26:25.167",
+      "end": "00:26:25.471"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:26:26.129",
+      "end": "00:27:07.591"
+    },
+    {
+      "speaker": "SPK003",
+      "start": "00:27:11.152",
+      "end": "00:27:15.050"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:27:15.050",
+      "end": "00:27:15.185"
+    },
+    {
+      "speaker": "SPK003",
+      "start": "00:27:15.185",
+      "end": "00:27:15.286"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:27:15.286",
+      "end": "00:27:15.455"
+    },
+    {
+      "speaker": "SPK003",
+      "start": "00:27:15.455",
+      "end": "00:27:15.472"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:27:15.472",
+      "end": "00:27:16.315"
+    },
+    {
+      "speaker": "SPK003",
+      "start": "00:27:16.315",
+      "end": "00:27:24.247"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:27:24.027",
+      "end": "00:27:24.483"
+    },
+    {
+      "speaker": "SPK003",
+      "start": "00:27:24.483",
+      "end": "00:27:34.169"
+    },
+    {
+      "speaker": "SPK002",
+      "start": "00:27:34.338",
+      "end": "00:28:00.106"
+    },
+    {
+      "speaker": "SPK001",
+      "start": "00:27:59.566",
+      "end": "00:29:10.357"
+    },
+    {
+      "speaker": "SPK003",
+      "start": "00:29:11.960",
+      "end": "00:29:17.377"
+    }
+  ],
+  "diarization": {
+    "backend": "pyannote.audio",
+    "model": "/Users/qinmian/.local/share/media-skills/pyannote/community-1",
+    "revision": "3533c8cf8e369892e6b79ff1bf80f7b0286a54ee",
+    "device": "mps",
+    "speaker_count": 3,
+    "audio_sha256": "ce6a80020b45360560851720d9acf85bb8cd67d6353faad4dd08d322424f14c8",
+    "parameters": {}
+  },
+  "sections": [
+    {
+      "title_original": "From chatbots to production agents",
+      "title_translation": "从聊天机器人到生产环境中的代理",
+      "reading_type": "expository",
+      "start": "00:00:00",
+      "end": "00:02:24.550",
+      "block_ids": [
+        "S001",
+        "S002",
+        "S003"
+      ]
+    },
+    {
+      "title_original": "What agents need: the connectivity layer",
+      "title_translation": "代理需要什么：连接层",
+      "reading_type": "expository",
+      "start": "00:02:24.560",
+      "end": "00:03:32.080",
+      "block_ids": [
+        "S004",
+        "S005"
+      ]
+    },
+    {
+      "title_original": "Skills and progressive disclosure",
+      "title_translation": "Skills 与渐进式披露",
+      "reading_type": "expository",
+      "start": "00:03:32.080",
+      "end": "00:05:11.919",
+      "block_ids": [
+        "S006",
+        "S007",
+        "S008",
+        "S009"
+      ]
+    },
+    {
+      "title_original": "CLIs: strengths and enterprise gaps",
+      "title_translation": "CLI：长处与企业场景的缺口",
+      "reading_type": "expository",
+      "start": "00:05:11.919",
+      "end": "00:09:08.080",
+      "block_ids": [
+        "S010",
+        "S011",
+        "S012",
+        "S013",
+        "S014",
+        "S015",
+        "S016",
+        "S017",
+        "S018",
+        "S019",
+        "S020"
+      ]
+    },
+    {
+      "title_original": "MCP as the integration layer",
+      "title_translation": "MCP 作为集成层",
+      "reading_type": "expository",
+      "start": "00:09:08.080",
+      "end": "00:11:16.959",
+      "block_ids": [
+        "S021",
+        "S022",
+        "S023",
+        "S024",
+        "S025"
+      ]
+    },
+    {
+      "title_original": "Answering the criticism: tool search and code mode",
+      "title_translation": "回应批评：工具搜索与代码模式",
+      "reading_type": "expository",
+      "start": "00:11:16.959",
+      "end": "00:15:58.310",
+      "block_ids": [
+        "S026",
+        "S027",
+        "S028",
+        "S029",
+        "S030",
+        "S031",
+        "S032",
+        "S033",
+        "S034",
+        "S035",
+        "S036"
+      ]
+    },
+    {
+      "title_original": "Where MCP stands: adoption, 2025 releases and MCP Apps",
+      "title_translation": "MCP 现状：采用情况、2025 年的发布与 MCP Apps",
+      "reading_type": "expository",
+      "start": "00:15:58.320",
+      "end": "00:20:34.720",
+      "block_ids": [
+        "S037",
+        "S038",
+        "S039",
+        "S040",
+        "S041",
+        "S042",
+        "S043",
+        "S044",
+        "S045",
+        "S046"
+      ]
+    },
+    {
+      "title_original": "2026 roadmap priorities",
+      "title_translation": "2026 年路线图重点",
+      "reading_type": "expository",
+      "start": "00:20:34.720",
+      "end": "00:25:16.960",
+      "block_ids": [
+        "S047",
+        "S048",
+        "S049",
+        "S050",
+        "S051",
+        "S052",
+        "S053",
+        "S054",
+        "S055"
+      ]
+    },
+    {
+      "title_original": "Outlook and closing",
+      "title_translation": "展望与结束语",
+      "reading_type": "expository",
+      "start": "00:25:16.960",
+      "end": "00:27:11.990",
+      "block_ids": [
+        "S056",
+        "S057",
+        "S058",
+        "S059",
+        "S060"
+      ]
+    },
+    {
+      "title_original": "Q&A: how extensions are governed",
+      "title_translation": "问答：扩展如何治理",
+      "reading_type": "expository",
+      "start": "00:27:12",
+      "end": "00:29:17.936",
+      "block_ids": [
+        "S061",
+        "S062",
+        "S063",
+        "S064",
+        "S065",
+        "S066",
+        "S067",
+        "S068",
+        "S069"
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "S001",
+      "order": 1,
+      "start": "00:00:00",
+      "end": "00:00:18",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "I'm David. I'm a member of technical staff at Anthropic and one of the co-creators of MCP. Um, yeah, I'm just going to talk a little bit about MCP and a bit of more the, the rough, like the more general context around agents in the moment. Um, hopefully in the next 25 minutes, and keep it interesting for you all.",
+      "translation": "我是 David，Anthropic 的技术人员，也是 MCP 的共同创建者之一。嗯，我接下来会稍微讲讲 MCP，再讲讲当下围绕代理（agent）的更大的背景。希望接下来这 25 分钟能让大家觉得有意思。",
+      "confidence": "high",
+      "source_cues": [
+        "C0001",
+        "C0009"
+      ]
+    },
+    {
+      "id": "S002",
+      "order": 2,
+      "start": "00:00:18",
+      "end": "00:01:08.320",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Um, so where are we, to set some context, where are we at the moment in 2026? What do I think, believe is going to happen this, uh, this year? Um, looking back: 2023, like really the start of the AI boom with, uh, the launch of ChatGPT, very early chat bots, um, that were, um, mostly, honestly, quite frankly, a good technical demo but quite useless in your day-to-day work. Um, 2024, um, which is actually just not even like two year, it's two years ago, right? Like, we saw a massive jump in capability of the models with Claude 3, Claude 3.5, GPT-4 and others, and really for the first time saw, saw that in an assistant setting, where you copy in things and out of a chat, um, models became actually quite useful, but they were limited in the ability to interact with the other world.",
+      "translation": "那么，先交代一下背景：2026 年的现在，我们处在什么位置？我认为今年会发生什么？回头看，2023 年是 AI 热潮真正的起点，ChatGPT 发布，出现了很早期的聊天机器人。老实说，它们大多是不错的技术演示，但在日常工作里基本没什么用。到了 2024 年，其实也就是两年前，模型能力有了巨大飞跃，有 Claude 3、Claude 3.5、GPT-4 等等。我们第一次在助手式的场景里看到，你把东西复制进聊天、再复制出来，模型就真的相当有用了，但它们与外部世界交互的能力很有限。",
+      "confidence": "high",
+      "source_cues": [
+        "C0009",
+        "C0028"
+      ]
+    },
+    {
+      "id": "S003",
+      "order": 3,
+      "start": "00:01:08.320",
+      "end": "00:02:24.550",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "And then moving forward, 2025, with things like Claude Code, um, Codex and other, um, particularly around developer tooling agents, we saw the rise of agents at the back of the increasing capability of models, um, and their ability to use tools, um, quite consistently. And this enabled us to build for the first time in 2025 these, like, agents that actually get done, um, and they do it by, uh, interacting with the external world. And, um, that is particularly visible in development environments, where we see them compile code, run tests and these type of things. And then moving forward, I think we have now demonstrated that we have things and have found an architecture that can get medium-sized task quite semi-autonomously done. And it's 2026 where we going to reach, I think, from the development space, where these things are much easier to deploy because you all know how to use computers and can fix things when they're broken and jump in if needed, to really make these things work in production for customers, for, uh, workers not in technology, for, you know, the general knowledge worker outside, um, of developers.",
+      "translation": "再往前到 2025 年，有了 Claude Code、Codex 等，尤其是在开发者工具领域，我们看到代理兴起。这背后是模型能力的提升，以及它们相当稳定地使用工具的能力。这让我们在 2025 年第一次做出了真正能把事情做完的代理，它们靠与外部世界交互来完成任务。这在开发环境里尤其明显：它们会编译代码、跑测试，诸如此类。再往前看，我认为我们已经证明，我们找到了一种架构，能以相当半自主的方式完成中等规模的任务。而到 2026 年，我认为我们会从开发领域走出去。在开发领域部署这些东西容易得多，因为你们都会用电脑，东西坏了能修，必要时能插手。今年要做的是让它们在生产环境里为客户、为不做技术的员工、为开发者以外的普通知识工作者真正跑起来。",
+      "confidence": "high",
+      "source_cues": [
+        "C0028",
+        "C0057"
+      ]
+    },
+    {
+      "id": "S004",
+      "order": 4,
+      "start": "00:02:24.560",
+      "end": "00:03:07.920",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "And what do you need for an agent? I, I'm talking things that hopefully most of you already know. It's four major ingredients. You need some form of loop. Um, they're actually quite simplistic in the most cases. Um, you need some form of code execution, because it turns out if you want to automate a task, writing code is a really good thing to do, that models are really good at writing code. You need some form of executing this code; execution environments are great. This, um, there's a lot I can talk about this, but I'm not going to go into today. Um, thirdly, you need some form of memory. If you have a certain type of task, you know, that's an early development, it's not necessarily needed, but in, depending on what you want to do, it can be a useful addition to an agentic thing.",
+      "translation": "那么一个代理需要什么？我讲的这些希望大多数人已经知道了。它有四大要素。你需要某种循环，大多数情况下其实相当简单。你需要某种代码执行能力，因为事实证明，要自动化一项任务，写代码是非常好的办法，而模型非常擅长写代码。你需要某种方式来执行这些代码，执行环境很重要。这方面我能讲很多，但今天不展开。第三，你需要某种记忆。如果你的任务类型还处在早期开发阶段，它不一定必要，但视你要做的事情而定，它可以是代理的有用补充。",
+      "confidence": "high",
+      "source_cues": [
+        "C0058",
+        "C0078"
+      ]
+    },
+    {
+      "id": "S005",
+      "order": 5,
+      "start": "00:03:07.920",
+      "end": "00:03:32.080",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "And then, last but not least, you need some form of external connectivity, where things like MCP fit in. And I want to talk a little bit about this part of it, about the connectivity part, um, which fits then into this context layer. So connectivity has three major things that people are, people are currently using when it comes to agents.",
+      "translation": "最后但同样重要的是，你需要某种对外的连接能力，MCP 这类东西就处在这里。我想稍微讲讲这一部分，也就是连接这部分，它属于上下文层。说到代理，人们目前用来做连接的主要有三种东西。",
+      "confidence": "high",
+      "source_cues": [
+        "C0078",
+        "C0087"
+      ]
+    },
+    {
+      "id": "S006",
+      "order": 6,
+      "start": "00:03:32.080",
+      "end": "00:03:52.480",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Um, there's more to this. You can expand this idea further, but I want to talk about these major three things. The first one is skills, which are these, like, domain knowledge. Um, do they are like these, these files, basically, packaged up with some simple form of, um, programs that you can add to them, and they can ref-, reference.",
+      "translation": "当然不止这些，这个思路还可以继续扩展，但我想讲这三种主要的东西。第一种是 skills，也就是领域知识。它们基本上就是一些文件，打包了一些简单的程序，你可以往里加，它们也可以引用这些程序。",
+      "confidence": "high",
+      "source_cues": [
+        "C0087",
+        "C0096"
+      ]
+    },
+    {
+      "id": "S007",
+      "order": 7,
+      "start": "00:03:52.480",
+      "end": "00:04:22.710",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Um, and what skills do is they usually encapsulate some form of domain knowledge about a specific task, about a specific capability. How do you convert a, a, you know, a Google slide from to PowerPoint? How do you convert an image? These type of things. How do you do, um, specific task within a company? Um, you know, how do you, I don't know, do your, your accounting, whatever. These are encapsulating that. One interesting part about skills that made them very popular is, first of all, they're very simple.",
+      "translation": "skills 的作用通常是封装某个特定任务、某种特定能力的领域知识。比如怎么把 Google 幻灯片转成 PowerPoint？怎么转换图片？这类事情。在公司里怎么完成某项具体任务？比如，我也不知道，怎么做你们的会计，诸如此类。skills 封装的就是这些。skills 之所以非常流行，一个有意思的原因是：首先，它们非常简单。",
+      "confidence": "high",
+      "source_cues": [
+        "C0096",
+        "C0108"
+      ]
+    },
+    {
+      "id": "S008",
+      "order": 8,
+      "start": "00:04:22.720",
+      "end": "00:04:42.880",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "They're very portable. Um, and then, most importantly, they will do something inherently, because the models have been trained on this, which is called progressive disclosure. And I'm going to go and talk about this in more details, because everything, it's a really good pattern that we now see use and then later on hopefully see MCPs use more.",
+      "translation": "它们非常便于移植。而最重要的是，它们天然会做一件事，因为模型就是这样训练的，这叫作渐进式披露（progressive disclosure）。我待会儿会更详细地讲这个，因为这确实是一个很好的模式，我们现在看到它被使用，希望以后也能看到 MCP 更多地使用它。",
+      "confidence": "high",
+      "source_cues": [
+        "C0109",
+        "C0117"
+      ]
+    },
+    {
+      "id": "S009",
+      "order": 9,
+      "start": "00:04:42.880",
+      "end": "00:05:11.919",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Okay. So this is one really good way of, of dealing with context and, and enabling models to get, um, additional capabilities, and have the models only use them when they need them. The way this works is you get, you give the model 30 skill files, um, it only takes a small portion of it, um, and only when it thinks it requires that specific capability, reads the full thing, um, and then uses that. And that's what we call progressive disclosure.",
+      "translation": "好，这是处理上下文、让模型获得额外能力，并且只在需要时才使用这些能力的一种非常好的方式。它的做法是：你给模型 30 个 skill 文件，它只读取其中一小部分，只有当它认为需要某项具体能力时，才读取完整内容，然后使用它。这就是我们说的渐进式披露。",
+      "confidence": "high",
+      "source_cues": [
+        "C0117",
+        "C0129"
+      ]
+    },
+    {
+      "id": "S010",
+      "order": 10,
+      "start": "00:05:11.919",
+      "end": "00:05:32.400",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Okay. So that's skills: very popular, very good, encapsulates domain knowledge. Second is CLI, CLIs. Uh, something, if you are, uh, uh, have the misfortune of spending too much time on Twitter like I do, you have heard a lot about this in the recent, uh, weeks and months, um, including the declar-, declaration that MCP is dead because of CLIs.",
+      "translation": "好，这就是 skills：非常流行，非常好用，封装领域知识。第二种是 CLI，命令行工具。如果你和我一样，不幸在 Twitter 上花了太多时间，那你最近几周、几个月应该听到了很多关于它的说法，包括有人宣称 MCP 已死，因为有 CLI 了。",
+      "confidence": "high",
+      "source_cues": [
+        "C0129",
+        "C0138"
+      ]
+    },
+    {
+      "id": "S011",
+      "order": 11,
+      "start": "00:05:32.400",
+      "end": "00:06:07.830",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Um, I, I don't think that's true. I think CLIs are great in certain environments, but as always the answer is purely: it depends. Things CLIs do really, really, really well: the first thing, they're inherently progressive. This, um, this doing this progressive disclosure, that means the model will take a CLI tool and try to execute it via the bash tool, and when it wants to understand more about how this tool works, it will just continue running the help function, reading the help, learning from it, doing the next thing, continue, right? And so slowly and steadily build up the thing it needs to do to accomplish the task.",
+      "translation": "我不认为是这样。我认为 CLI 在某些环境下很好，但一如既往，答案只能是：看情况。CLI 做得非常非常好的事情，第一，它们天然是渐进式的。它们在做渐进式披露：模型会拿到一个 CLI 工具，尝试通过 bash 工具执行它；当它想进一步了解这个工具怎么用时，就会继续运行 help，读帮助、从中学习、做下一步、接着做，对吧？就这样一步步稳稳地把完成任务需要的东西搭起来。",
+      "confidence": "high",
+      "source_cues": [
+        "C0138",
+        "C0153"
+      ]
+    },
+    {
+      "id": "S012",
+      "order": 12,
+      "start": "00:06:07.840",
+      "end": "00:06:27.840",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "This is great. It uses then, of course, a lot of tokens in the process doing that, but it's actually quite a good mechanism. The second part, so it does this progressive disclosure right away. The second part, it does bash tools, because in the way we use, how Unix-like shells are designed, are inherently composable, and that's an interesting aspect of it.",
+      "translation": "这很好。当然，这个过程会用掉很多 token，但它其实是相当好的机制。这是第一点，它直接就做到了渐进式披露。第二点在于 bash 工具：按照类 Unix shell 的设计方式，它们天然是可组合的，这是它有意思的一面。",
+      "confidence": "high",
+      "source_cues": [
+        "C0154",
+        "C0163"
+      ]
+    },
+    {
+      "id": "S013",
+      "order": 13,
+      "start": "00:06:27.840",
+      "end": "00:06:46.960",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Um, there's a limitation if you really think about it, if you really consider it from a programming language perspective. In my mind, a shell is nothing but a domain-specific language for string processing on, uh, on, on Unix. Um, so there is an aspect that is purely based on strings, but it's actually a quite good mechanism to compose tasks together in one big go.",
+      "translation": "如果你认真想一想，从编程语言的角度看，这里有一个局限。在我看来，shell 不过是 Unix 上用于字符串处理的领域特定语言。所以它有完全基于字符串的一面，但它确实是一次性把多个任务组合起来的好机制。",
+      "confidence": "high",
+      "source_cues": [
+        "C0163",
+        "C0172"
+      ]
+    },
+    {
+      "id": "S014",
+      "order": 14,
+      "start": "00:06:46.960",
+      "end": "00:07:08.080",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "And you see things like Claude Code write shell script that interact with CLI tools really, really nicely. And CLIs are really, really, really good if you, in a local coding agent, because you can read what it's doing. You can interact with it. But most importantly, because it's not really that much of a standardized interface, if there is an authentication token or so on, it will just pop up a browser.",
+      "translation": "你会看到 Claude Code 这类工具写 shell 脚本，跟 CLI 工具配合得非常非常好。在本地编码代理里，CLI 非常非常好用，因为你能看到它在做什么，你可以和它交互。但最重要的是，因为它其实不是多么标准化的接口，如果需要认证令牌之类的，它就直接弹出一个浏览器。",
+      "confidence": "high",
+      "source_cues": [
+        "C0172",
+        "C0183"
+      ]
+    },
+    {
+      "id": "S015",
+      "order": 15,
+      "start": "00:07:08.080",
+      "end": "00:07:30.720",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "You log in, you continue, right? It's great for that kind of stuff, right? So for developers, CLIs are a great way to get some context into your coding agent, but it does have some disadvantage. Oh, by the way, one thing, um, co-, for CLI, if there, there are one more additional advantage I forgot to mention.",
+      "translation": "你登录，然后继续，对吧？做这类事情它很好用。所以对开发者来说，CLI 是给编码代理提供上下文的好办法，但它也有一些缺点。哦，顺便说一句，CLI 还有一个优点我刚才忘了说。",
+      "confidence": "high",
+      "source_cues": [
+        "C0183",
+        "C0191"
+      ]
+    },
+    {
+      "id": "S016",
+      "order": 16,
+      "start": "00:07:30.720",
+      "end": "00:07:57.280",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "If there are in pre-training, like most common commands, kubectl, git, GitHub, these type of things, the model will just get it right from the beginning. It's super good. It's the one thing you want to use in that environment. Um, you probably not always want to use a Git MCP server, because the model just knows how to use Git, and that's same applies, by the way, to a lot of the kubectl things as well.",
+      "translation": "如果某些命令在预训练数据里，比如最常用的 kubectl、git、GitHub 这类，模型从一开始就能用对。这非常好，在那种环境里就该用它。你大概不一定要用 Git 的 MCP 服务器，因为模型本来就知道怎么用 Git；顺便说一句，很多 kubectl 的操作也一样。",
+      "confidence": "high",
+      "source_cues": [
+        "C0191",
+        "C0202"
+      ]
+    },
+    {
+      "id": "S017",
+      "order": 17,
+      "start": "00:07:57.280",
+      "end": "00:08:15.440",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Okay, but there are problems with CLIs. The first one is there are no standardized interface for introspectability. If you want to deploy, if you need some form of context that needs to go into your agents in an enterprise environment, you probably want some form of introspection. You want gateways.",
+      "translation": "好，但 CLI 也有问题。第一，它没有用于可内省性（introspectability）的标准化接口。如果你要部署，如果你需要在企业环境中把某种上下文接入你的代理，你很可能需要某种内省能力。你需要网关。",
+      "confidence": "high",
+      "source_cues": [
+        "C0202",
+        "C0210"
+      ]
+    },
+    {
+      "id": "S018",
+      "order": 18,
+      "start": "00:08:15.440",
+      "end": "00:08:35.509",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "You want, um, audit trails. You want things that are great if you have a standardized network protocol that you can intercept, audit, make decisions based on it, and then continue, uh, if you're agreeing that this is the thing you want this thing to allow, right? Second to that, CLI are really good for local deployment.",
+      "translation": "你需要审计记录。你需要的这些东西，在有一个标准化网络协议时会很好办：你可以拦截、审计、据此做决定，然后在你同意这是你想放行的操作时再继续，对吧？第二，CLI 非常适合本地部署。",
+      "confidence": "high",
+      "source_cues": [
+        "C0210",
+        "C0219"
+      ]
+    },
+    {
+      "id": "S019",
+      "order": 19,
+      "start": "00:08:35.519",
+      "end": "00:08:49.200",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "They're quite tricky when you have them in a remote scenario. If you build a web interface and you need to interact with something else somewhere else, uh, this is something that's way more tricky, uh, to use. Last but not least is, or like the last two points is, like, it's no standardized authentication.",
+      "translation": "放到远程场景里就相当棘手。如果你做了一个 Web 界面，需要和别处的东西交互，用起来就麻烦得多。最后，或者说最后两点：它没有标准化的认证。",
+      "confidence": "high",
+      "source_cues": [
+        "C0220",
+        "C0227"
+      ]
+    },
+    {
+      "id": "S020",
+      "order": 20,
+      "start": "00:08:49.200",
+      "end": "00:09:08.080",
+      "speaker": "SPK001",
+      "speaker_candidates": [
+        "SPK001",
+        "SPK002"
+      ],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": "09:05–09:08 有一小段被声学聚类到另一个声音，但这段话是讲者在总结 CLI 的三个问题，前后连贯，判为讲者。",
+      "language": "en",
+      "original_text": "Again, CLI usually solve this by popping up a browser. Works great if you're on a local machine. Does not very work great if, uh, you're not technical, and if you're not, um, and if you're working in a remote scenario, like a mobile device, in like web device, these type of things. Um, yeah. Okay. That's the, that's the main three things.",
+      "translation": "同样，CLI 通常靠弹出浏览器来解决认证。如果你在本地机器上，这很好用。如果你不懂技术，或者你在远程场景里，比如移动设备、Web 设备这类，就不太好用了。嗯，好。这就是主要的三点。",
+      "confidence": "high",
+      "source_cues": [
+        "C0227",
+        "C0236"
+      ]
+    },
+    {
+      "id": "S021",
+      "order": 21,
+      "start": "00:09:08.080",
+      "end": "00:09:38.080",
+      "speaker": "SPK001",
+      "speaker_candidates": [
+        "SPK001",
+        "SPK002"
+      ],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": "开头与 S020 末尾同一处被聚类到另一个声音；内容接着讲者的论述，判为讲者。",
+      "language": "en",
+      "original_text": "Okay. And that's, I think, where then is really the spot for MCP, and the thing I want to talk about a bit later is where MCP comes in. MCP really is the integration tissue, the, um, the integration protocol for serious consumer and enterprise integrations. Um, and that's where I think it differ from things like CLIs a little bit, in that, um, it's really think, thought about like a remote integration layer.",
+      "translation": "好。我认为这正是 MCP 的用武之地，我稍后想讲的就是 MCP 在哪里发挥作用。MCP 实际上是集成的结缔组织，是用于严肃的消费级和企业级集成的协议。我认为它和 CLI 这类东西有点不同，因为它真正是作为远程集成层来设计的。",
+      "confidence": "high",
+      "source_cues": [
+        "C0236",
+        "C0246"
+      ]
+    },
+    {
+      "id": "S022",
+      "order": 22,
+      "start": "00:09:38.080",
+      "end": "00:10:01.190",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Uh, it has a really standardized structured output that you can interject, that you can, um, introspect, and you can make decisions based on. You can have gateways. You can have a lot of things, uh, that are, that you can, allow you to make decisions ba-, in between the user, uh, and, and the server provider. And of course it has more what a CLI is.",
+      "translation": "它有真正标准化的结构化输出，你可以介入、可以内省，可以据此做决定。你可以设网关。你可以有很多东西，让你在用户和服务提供方之间做决定。当然，它包含的东西也比 CLI 多。",
+      "confidence": "high",
+      "source_cues": [
+        "C0246",
+        "C0255"
+      ]
+    },
+    {
+      "id": "S023",
+      "order": 23,
+      "start": "00:10:01.200",
+      "end": "00:10:19.519",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "So CLI is a great, as an example for a tool, while MCP is more than just tools. There's some more nuance semantics that we put into the protocol quite early: resources and prompts, and particular resources, a good example that we will see later with MCP apps, that enable functionalities that otherwise are not possible.",
+      "translation": "所以，CLI 是“工具”的一个很好的例子，而 MCP 不只是工具。我们很早就在协议里加入了一些更细致的语义：resources 和 prompts。尤其是 resources，后面讲 MCP Apps 时会看到一个很好的例子，它能实现原本做不到的功能。",
+      "confidence": "high",
+      "source_cues": [
+        "C0256",
+        "C0264"
+      ]
+    },
+    {
+      "id": "S024",
+      "order": 24,
+      "start": "00:10:19.519",
+      "end": "00:10:50.240",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "And last but not least, part of these semantics are things that you can just not know in, when you use something that is a bit, um, like a CLI. For example, an MCP server can enforce that it will ask the user for input, right? And that the model does not answer this. This is called an elicitation. It's one of these example where having a more richer semantic allows you to build things that are really, really nice in a consumer environment, where you must guarantee that the user answers a certain question, for example.",
+      "translation": "最后但同样重要的是，这些语义里有一部分，是你用 CLI 这类东西时根本无从得知的。比如，MCP 服务器可以强制要求向用户询问输入，对吧？而且不让模型来回答。这叫作 elicitation（信息征询）。这就是一个例子：语义更丰富，你就能在消费级环境里做出非常好的东西，比如在必须保证由用户本人回答某个问题的场景里。",
+      "confidence": "high",
+      "source_cues": [
+        "C0264",
+        "C0278"
+      ]
+    },
+    {
+      "id": "S025",
+      "order": 25,
+      "start": "00:10:50.240",
+      "end": "00:11:16.959",
+      "speaker": "SPK001",
+      "speaker_candidates": [
+        "SPK001",
+        "SPK002"
+      ],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": "11:11 附近有一个极短的片段被聚类到另一个声音，不足一秒，内容是讲者在说话，判为讲者。",
+      "language": "en",
+      "original_text": "And so I still believe that MCP, uh, this year plays a major role as a protocol for consumer and, um, and enterprise integration, um, and, um, and, um, and fits nicely together in this, like, try-, like these three things: skills, CLIs and MCP servers. Okay. But there is two things that people constantly criticize on MCP.",
+      "translation": "所以我仍然相信，MCP 今年会作为消费级和企业级集成的协议发挥重要作用，并且与这三样东西很好地配合：skills、CLI 和 MCP 服务器。好。但人们一直在批评 MCP 的有两点。",
+      "confidence": "high",
+      "source_cues": [
+        "C0278",
+        "C0286"
+      ]
+    },
+    {
+      "id": "S026",
+      "order": 26,
+      "start": "00:11:16.959",
+      "end": "00:11:41.360",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "The one is context bloat, uh, and the second part is composability. Well, it turns out these things are long solved. Well, by long I mean three months or four months, which in AI terms is an eternity. Um, and the number one thing we are missing at the moment is client implementers actually using the things and just building better MCP clients, and vice versa, server authors being a bit better in writing their servers.",
+      "translation": "一是上下文膨胀，二是可组合性。结果是，这两件事早就解决了。我说的“早”是三四个月前，在 AI 领域这已经是永恒了。我们目前最缺的，是客户端实现者真正用上这些东西、做出更好的 MCP 客户端；反过来，服务器作者也要把服务器写得更好一点。",
+      "confidence": "high",
+      "source_cues": [
+        "C0286",
+        "C0297"
+      ]
+    },
+    {
+      "id": "S027",
+      "order": 27,
+      "start": "00:11:41.360",
+      "end": "00:12:09.920",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "The number one thing for how you do progressive disclosure in MCP servers is, pro-, MCP is a protocol that gives you information, and then what people have done in the past is: I have 100 to MCP server, I just dump it into the model, and then I'm surprised that my users think it's a lot of context that I'm using up, right? Um, but what you can of course do, there's a thing called a tool search tool, and what a tool search tool does, it is searches, um, for the right tool for the right job.",
+      "translation": "在 MCP 里做渐进式披露，首要的一点是：MCP 是一个给你提供信息的协议。过去人们的做法是，我有 100 个 MCP 服务器，全都一股脑塞给模型，然后惊讶地发现用户觉得我占用了太多上下文，对吧？但你当然可以这样做：有一种东西叫工具搜索工具（tool search tool），它做的就是为合适的任务搜索合适的工具。",
+      "confidence": "high",
+      "source_cues": [
+        "C0297",
+        "C0310"
+      ]
+    },
+    {
+      "id": "S028",
+      "order": 28,
+      "start": "00:12:09.920",
+      "end": "00:12:29.839",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "So instead of loading all the tools into your context right away, you're loading only the tools that are required to get the stuff done. That is the equivalent to skills being loaded on demand. It's the equivalent to CLI being looked at by the model as it tries to do a task. Okay. Um, you can see this here very clearly.",
+      "translation": "所以，不是一开始就把所有工具都加载进上下文，而是只加载完成任务所需的工具。这相当于按需加载 skills，也相当于模型在尝试完成任务时去查看 CLI。好，从这里可以看得很清楚。",
+      "confidence": "high",
+      "source_cues": [
+        "C0310",
+        "C0318"
+      ]
+    },
+    {
+      "id": "S029",
+      "order": 29,
+      "start": "00:12:29.839",
+      "end": "00:13:11.519",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "On the left side is, uh, Claude Code before, like a, a random session, Claude Code before we introduce tool search. On the right side is it with tool search. And now you think, okay, how do I use tool search tool? Using tool search is actually trivial. Um, all you need to do, and of course I'm very biased that you should use the Anthropic API, no other API, um, as far as I'm concerned nothing else exists, um, and so, um, the, uh, you just say: defer the loading of my tool, and then you say: I want a tool search tool, and that's it. And then the model will automatically find the right tool at the right moment, use it, um, and, and call, uh, and, and call the tool when it's required.",
+      "translation": "左边是引入工具搜索之前的 Claude Code，随便一个会话；右边是用了工具搜索之后。现在你会想：那我怎么用工具搜索工具？用工具搜索其实很简单。你只需要，当然我非常偏心，觉得你应该用 Anthropic 的 API，别的 API 都不要用，就我而言别的都不存在。你只要声明延迟加载我的工具，再声明我要一个工具搜索工具，就这样。然后模型会在合适的时机自动找到合适的工具，并在需要时调用它。",
+      "confidence": "high",
+      "source_cues": [
+        "C0318",
+        "C0335"
+      ]
+    },
+    {
+      "id": "S030",
+      "order": 30,
+      "start": "00:13:11.519",
+      "end": "00:13:32.949",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "And so on, now you have progressive disclosure. Second part is composability, right? Um, and so this is a, a topic that we usually refer to as programmatic tool use. Um, Cloudflare has made this popular based on the same idea, uh, in a way that's called code mode. Similar, like basically exactly the same, different word for it.",
+      "translation": "这样一来，你就有了渐进式披露。第二点是可组合性，对吧？这是我们通常称为程序化工具调用（programmatic tool use）的主题。Cloudflare 基于同样的想法把它推广开了，他们叫它 code mode（代码模式）。差不多，基本上完全是一回事，只是叫法不同。",
+      "confidence": "high",
+      "source_cues": [
+        "C0335",
+        "C0343"
+      ]
+    },
+    {
+      "id": "S031",
+      "order": 31,
+      "start": "00:13:32.959",
+      "end": "00:13:53.440",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Um, what does it do? Um, so if you have, if you consider an MCP tool like a remote API, like a remote procedure call, which effectively it is, it's a remote procedure call inside a rem-, procedure call. Um, what you can then do, you can say: well, what's the way to compose things together that are rem-, procedure calls?",
+      "translation": "它做什么？如果你把一个 MCP 工具看作一个远程 API，看作一次远程过程调用，它实际上就是，是远程过程调用里的远程过程调用。那么你就可以问：把远程过程调用组合在一起的方式是什么？",
+      "confidence": "high",
+      "source_cues": [
+        "C0344",
+        "C0352"
+      ]
+    },
+    {
+      "id": "S032",
+      "order": 32,
+      "start": "00:13:53.440",
+      "end": "00:14:34.720",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Well, that's obviously code. Okay. And if you think, by the way, you know, a bash command is also just code, just in this, like, in, in a, in a bash DSL. Um, and, um, what you do then is you provide basically the model with a REPL, with a, with a code environment, like a JavaScript or a Python execution environment, and say: here's a bunch of MCP tools, here's a bunch of other API tools you want to have access to, write some script that you want to execute in this sandbox. And that will do this composability thing. And what it then allows you to do is that the model then can say: oh, give me all the issues from GitHub, now I'm doing some transformations in code, right?",
+      "translation": "显然是代码。好。顺便说一句，你想想，bash 命令其实也是代码，只是用 bash 这种 DSL 写的。你要做的就是给模型提供一个 REPL，一个代码环境，比如 JavaScript 或 Python 执行环境，然后告诉它：这里有一堆 MCP 工具，这里有一堆你想用的其他 API 工具，写个脚本，在这个沙箱里执行。这就实现了可组合性。它让模型可以说：哦，把 GitHub 上所有 issue 给我，现在我用代码做些转换，对吧？",
+      "confidence": "high",
+      "source_cues": [
+        "C0352",
+        "C0369"
+      ]
+    },
+    {
+      "id": "S033",
+      "order": 33,
+      "start": "00:14:34.720",
+      "end": "00:15:02.880",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Read the J-, read the JSON, make some transformation, make a for loop, continue using it. And it can nicely composed together the same way a bash command is put together. It can nicely composed together in any programming language that you want, be it JavaScript, be it, um, Python, put together, um, these things in a composable way, and actually much be, be faster, be less token usage, um, and just be a bit more superior in the way you do this.",
+      "translation": "读取 JSON，做一些转换，写个 for 循环，接着用。它能像组合 bash 命令那样把东西漂亮地组合起来，而且能用任何你想用的编程语言，不管是 JavaScript 还是 Python，以可组合的方式把这些东西拼起来。实际上会快得多，token 用得更少，做法也更优越一些。",
+      "confidence": "high",
+      "source_cues": [
+        "C0369",
+        "C0382"
+      ]
+    },
+    {
+      "id": "S034",
+      "order": 34,
+      "start": "00:15:02.880",
+      "end": "00:15:19.440",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "In my personal environment, I have like a little, uh, little mini project on the side where I write my own claw version of things, and I'm using Lua for it. I mean, so my, my code mode, and effectively the model just writes Lua code that just executes things like that. I mean, that gets you a lot of stuff done.",
+      "translation": "在我个人的环境里，我有一个小小的业余项目，自己写各种东西的 claw 版本，用的是 Lua。我的 code mode 就是这样，模型直接写 Lua 代码来执行这些事情。这能帮你完成很多事情。",
+      "confidence": "high",
+      "source_cues": [
+        "C0382",
+        "C0390"
+      ]
+    },
+    {
+      "id": "S035",
+      "order": 35,
+      "start": "00:15:19.440",
+      "end": "00:15:40.560",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "The interesting part is this you can do either on the client side and on the server side. So you can take, give the server, as a server, provide an interface that says: as an MCP server I only offer two tools. I offer, like, a search tool and an execution tool. Um, and the execution tool does nothing but code mode.",
+      "translation": "有意思的是，这件事既可以在客户端做，也可以在服务器端做。你可以作为服务器提供这样一个接口：我这个 MCP 服务器只提供两个工具，一个搜索工具，一个执行工具。执行工具做的就只是 code mode。",
+      "confidence": "high",
+      "source_cues": [
+        "C0390",
+        "C0398"
+      ]
+    },
+    {
+      "id": "S036",
+      "order": 36,
+      "start": "00:15:40.560",
+      "end": "00:15:58.310",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Um, I want, don't want to go into detail, but look at the way the Cloudflare MCP server is done. It's a great example of this, uh, massively reduces the token usage in the absence of the client being a good implement of this. But what we really want to see in the MCP ecosystem is more and more clients doing that.",
+      "translation": "我不想展开细节，但你们可以看看 Cloudflare 的 MCP 服务器是怎么做的。它是一个很好的例子，在客户端没有很好地实现这一点时，能大幅减少 token 用量。但我们真正希望在 MCP 生态里看到的，是越来越多的客户端来做这件事。",
+      "confidence": "high",
+      "source_cues": [
+        "C0398",
+        "C0406"
+      ]
+    },
+    {
+      "id": "S037",
+      "order": 37,
+      "start": "00:15:58.320",
+      "end": "00:16:21.839",
+      "speaker": "SPK001",
+      "speaker_candidates": [
+        "SPK001",
+        "SPK002"
+      ],
+      "speaker_confidence": "medium",
+      "overlap": false,
+      "attribution_note": "16:00 与 16:17–16:21 的片段被聚类到另一个声音。内容延续讲者的话（请人关门、说这页之后再看），判为讲者；其中 “They are closed” 可能是现场其他人的回应，字幕无法区分。",
+      "language": "en",
+      "original_text": "Can we, can we close the door? It's, it's just very, is they all closed? They are closed. It's very loud. Okay. Uh, I don't want to go into this. Uh, you can look at this later, but let's talk about MCP in the next, uh, 15 minutes. Cool. MCP, uh, in 20-, this is just an overview, right, just like the same thing I said in, in, in your, that you can look at it up later.",
+      "translation": "能不能，能不能把门关上？实在是太……门都关了吗？关了。太吵了。好。我不想展开这个。你们可以之后再看，我们来用接下来 15 分钟讲讲 MCP。好。MCP 在 20……这只是一个概览，对吧，跟我刚才说的一样，你们之后可以再查。",
+      "confidence": "high",
+      "source_cues": [
+        "C0407",
+        "C0415"
+      ]
+    },
+    {
+      "id": "S038",
+      "order": 38,
+      "start": "00:16:21.839",
+      "end": "00:16:49.839",
+      "speaker": "SPK001",
+      "speaker_candidates": [
+        "SPK001",
+        "SPK002"
+      ],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": "开头紧接 S037 被聚类到另一个声音的片段；“MCP in 2026” 是讲者翻到下一页时说的，判为讲者。",
+      "language": "en",
+      "original_text": "Okay. Uh, MCP in 2026. So where have we been with MCP in 2026? We have, um, from the la-, in the last, like, year, I think, really saw like an adoption of a protocol, uh, in a way that I think is unprecedented, uh, in the past. Um, we, we now have, um, tens of millions of downloads every month, um, or like hundreds, nearly.",
+      "translation": "好。MCP 在 2026 年。那么到 2026 年，MCP 走到了哪里？我认为在过去一年里，我们真正看到了一个协议以一种前所未有的方式被采用。我们现在每月有数千万次下载，或者说接近上亿次。",
+      "confidence": "high",
+      "source_cues": [
+        "C0415",
+        "C0424"
+      ]
+    },
+    {
+      "id": "S039",
+      "order": 39,
+      "start": "00:16:49.839",
+      "end": "00:17:25.280",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Um, we have, uh, thousands and thousands of servers that are published. And the interesting part, the reality is, in my mind, when I talk to customers, the vast majority of MCP servers are behind closed doors in enterprises. Um, and then of course we have SDKs. And then most recently we have taken this whole project, um, and moved it away from Anthropic and donated it to a foundation we have created with, uh, basically all the industry-leading parts in AI, um, using, um, and called the Agentic AI Foundation,",
+      "translation": "已经发布的服务器有成千上万个。而有意思的是，在我看来，从我和客户的交流看，绝大多数 MCP 服务器其实在企业内部，不对外公开。当然我们还有各语言的 SDK。最近，我们把整个项目从 Anthropic 移出，捐给了我们和 AI 领域几乎所有行业领先者共同创建的一个基金会，叫 Agentic AI Foundation（智能体 AI 基金会），",
+      "confidence": "high",
+      "source_cues": [
+        "C0424",
+        "C0437"
+      ]
+    },
+    {
+      "id": "S040",
+      "order": 40,
+      "start": "00:17:25.280",
+      "end": "00:18:06.470",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "uh, and that's, I think, one of the most important foundations at the moment, um, when it comes to AI development, uh, given that it's Anthropic, OpenAI, uh, Google, uh, Block, AWS, Microsoft, Cloudflare, uh, and then Bloomberg being part of it, and then 100 others. Okay, but what we have, we done? Um, we have also shipped a lot of stuff in 2025 for MCP. Um, we have improved the, the remote capability with, uh, something called streamable HTTP, which is just a way to map a bidirectional, um, uh, data flow, like a bidirectional, uh, stream, like a local, which, which standard IO would be, to streamable HTTP.",
+      "translation": "我认为它是当前 AI 发展领域最重要的基金会之一，因为成员有 Anthropic、OpenAI、Google、Block、AWS、Microsoft、Cloudflare，还有 Bloomberg，以及另外 100 家左右。好，那我们做了什么？我们在 2025 年也为 MCP 发布了很多东西。我们用一种叫 Streamable HTTP 的东西改进了远程能力，它就是把双向数据流，像本地的标准输入输出（stdio）那样的双向流，映射到可流式传输的 HTTP 上。",
+      "confidence": "high",
+      "source_cues": [
+        "C0437",
+        "C0452"
+      ]
+    },
+    {
+      "id": "S041",
+      "order": 41,
+      "start": "00:18:06.480",
+      "end": "00:18:38.960",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "We have, uh, unified the authorization pieces to really have a unified author-, authorization standard, which I think makes MCP quite unique. Uh, we have added additional, uh, primitives that we thought are very useful and composed quite nicely with the rest of the protocol. And then, last but not least, we have added extensions, which is our way to extend MCP in ways so that the core protocol can be slower moving and a bit more stable, but then we allow the, the, the, the craziness that is the AI field to experiment with the rest.",
+      "translation": "我们统一了授权的各个部分，形成一个统一的授权标准，我认为这让 MCP 相当独特。我们增加了一些新的原语，我们认为它们非常有用，并且能和协议的其余部分很好地组合。最后，我们加入了扩展（extensions）机制，这是我们扩展 MCP 的方式：核心协议可以变得慢一些、稳定一些，同时让疯狂的 AI 领域在其余部分自由试验。",
+      "confidence": "high",
+      "source_cues": [
+        "C0453",
+        "C0466"
+      ]
+    },
+    {
+      "id": "S042",
+      "order": 42,
+      "start": "00:18:38.960",
+      "end": "00:18:57.360",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "And one of the cooler things that came out of this whole thing is something called MCP apps. And MCP apps has an interesting origin story, in that it came out of MCP-UI, an open-source project started by Liad and Ido, um, at the time at Spotify and later at Monday, Shopify, sorry, I always get these two wrong.",
+      "translation": "这当中比较酷的一个成果叫 MCP Apps。MCP Apps 的起源很有意思：它来自开源项目 MCP-UI，由 Liad 和 Ido 发起，他们当时在 Spotify，后来在 Monday……是 Shopify，抱歉，这两个我总是搞混。",
+      "confidence": "high",
+      "source_cues": [
+        "C0466",
+        "C0474"
+      ]
+    },
+    {
+      "id": "S043",
+      "order": 43,
+      "start": "00:18:57.360",
+      "end": "00:19:26.960",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Uh, Shopify and, and later at monday.com. Um, and then OpenAI took these ideas, improved quite a bit on it, and created something called ChatGPT apps. And then we took this and worked together across all, across Anthropic, OpenAI and the MCP UI folks, and created, called something called MCP apps. And what MCP apps do is they provide a web interface, basically, to clients that, that support it, and then allow you to interact with that web interface.",
+      "translation": "是 Shopify，后来在 monday.com。然后 OpenAI 采纳了这些想法，做了不少改进，推出了 ChatGPT apps。之后我们把它拿过来，Anthropic、OpenAI 和 MCP-UI 的人一起合作，做出了 MCP Apps。MCP Apps 做的事情，基本上是给支持它的客户端提供一个 Web 界面，并让你可以和这个界面交互。",
+      "confidence": "high",
+      "source_cues": [
+        "C0474",
+        "C0486"
+      ]
+    },
+    {
+      "id": "S044",
+      "order": 44,
+      "start": "00:19:26.960",
+      "end": "00:19:52.720",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "And here's a very fun demo, if it works, um, of Excalidraw inside Claude, uh, saying: please, um, please generate me, uh, uh, or draw me how a Raspberry Pi works, right? And this is live-streamed from Excalidraw, uh, into Claude. This is an app that's integrated in this whole thing; is an MCP server that basically wraps Excalidraw.",
+      "translation": "这里有一个很好玩的演示，如果能跑起来的话：Claude 里的 Excalidraw，提示词是“请给我画一下树莓派是怎么工作的”，对吧？这是从 Excalidraw 实时流式传到 Claude 里的。这是一个集成在整个流程里的应用，背后是一个把 Excalidraw 包装起来的 MCP 服务器。",
+      "confidence": "high",
+      "source_cues": [
+        "C0486",
+        "C0494"
+      ]
+    },
+    {
+      "id": "S045",
+      "order": 45,
+      "start": "00:19:52.720",
+      "end": "00:20:15.270",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Um, and the best part, because it's an MCP server, it also has tools, and you can live, life interact with this thing, uh, in every turn of the conversation. And of course there are way more MCP apps. This is just one of the more fun ones. Um, they're interesting ones, um, that I've, that I've seen, um, from, from 3D applications to, uh, chat things like Slack and others.",
+      "translation": "最棒的是，因为它是一个 MCP 服务器，它也有工具，你可以在对话的每一轮里和它实时交互。当然，MCP Apps 还有很多，这只是比较好玩的一个。我见过一些有意思的，从 3D 应用到 Slack 之类的聊天应用都有。",
+      "confidence": "high",
+      "source_cues": [
+        "C0494",
+        "C0503"
+      ]
+    },
+    {
+      "id": "S046",
+      "order": 46,
+      "start": "00:20:15.280",
+      "end": "00:20:34.720",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "There's a lot of really cool stuff you can do if you assume that you can have a web interface. Okay. So that's where we have been at the end of, of 2025. Um, we have been, I think, uh, built a protocol that's, I think, for the most part we got some things. I think we got 70% right, 80% right. I don't think we got everything right.",
+      "translation": "只要你能假定有一个 Web 界面，就能做很多很酷的事。好。这就是我们到 2025 年底的情况。我认为我们做出的这个协议，大部分地方是做对了。我觉得我们做对了 70%、80%，我不认为我们什么都做对了。",
+      "confidence": "high",
+      "source_cues": [
+        "C0504",
+        "C0512"
+      ]
+    },
+    {
+      "id": "S047",
+      "order": 47,
+      "start": "00:20:34.720",
+      "end": "00:21:21.440",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Um, so we have a lot to, to work on, a lot to fix. Four areas that we as the core maintainers, uh, want to have people work on. Is the number one thing is going to be transport and scalability. So one of the trickiest part is, is that fundamentally agents are somewhat stateful, uh, and agents are somewhat bidirectional, um, and we kind of want to map it to some of the, uh, some of the, the web transporters that are really ubiquitous, namely HTTP, um, and, uh, and for various degrees of reasons, uh, that, that's what we want to do. But they have trans-, they have challenges in scalability, and that's challenges that particularly the, the big people like Microsoft, Google and others run into when they run, uh, MCP at scale.",
+      "translation": "所以我们还有很多要做、很多要修。我们这些核心维护者希望大家投入四个方向。第一是传输与可扩展性。最棘手的部分之一在于，代理从根本上说是有状态的，也是双向的，而我们希望把它映射到一些真正无处不在的 Web 传输上，也就是 HTTP。出于种种原因，这就是我们想做的。但它们在可扩展性上有挑战，尤其是 Microsoft、Google 这些大公司在大规模运行 MCP 时会碰到。",
+      "confidence": "high",
+      "source_cues": [
+        "C0512",
+        "C0533"
+      ]
+    },
+    {
+      "id": "S048",
+      "order": 48,
+      "start": "00:21:21.440",
+      "end": "00:21:43.350",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "And so we need a small, in like, iteration on the current transport protocol. And we're working very, very closely, uh, with some very senior people at, at Microsoft and, and, um, AWS and Google to get the transport into a way where MCP is way easier, uh, scalable, um, and, and better integrates with things like load balancers.",
+      "translation": "所以我们需要对现有传输协议做一次小的迭代。我们正和 Microsoft、AWS、Google 的一些资深人士密切合作，让 MCP 的传输更容易扩展，并且能更好地和负载均衡器这类东西集成。",
+      "confidence": "high",
+      "source_cues": [
+        "C0533",
+        "C0541"
+      ]
+    },
+    {
+      "id": "S049",
+      "order": 49,
+      "start": "00:21:43.360",
+      "end": "00:22:02.080",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Second, agent communication. MCP, I think, has always been good in trying to standardize patterns that are effectively in use, and not telling you, and observing what the industry is doing, and not the other way around, trying to tell you what you're supposed to do. And that's, I think, true with agent communication.",
+      "translation": "第二，代理间通信。我认为 MCP 一直擅长把实际在用的模式标准化：观察业界在做什么，而不是反过来告诉你该怎么做。我认为在代理间通信上也是如此。",
+      "confidence": "high",
+      "source_cues": [
+        "C0542",
+        "C0551"
+      ]
+    },
+    {
+      "id": "S050",
+      "order": 50,
+      "start": "00:22:02.080",
+      "end": "00:23:07.280",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "I think last year, at the year of the agents, um, we have seen people build them, and I think now we've seen people trying to connect them with each other. And I think we need to get, slowly observed the right pattern for how agentic communication needs to work with an MCP. And we having built an experimental, uh, feature called tasks into the, um, into the protocol, and that needs a lot of work based on the lessons we've learned, based on the first people playing around with it. And so we're going to slowly iterate, um, to get it into a state where we feel it's stable and where, oh, should not fall asleep, computer, there we go, um, uh, where we, where people can, uh, use MCP as an agent communication layer. Don't want to talk too much about governance, but if you run a big open-source project with 300 contributors, uh, you eventually need to get your together, and so we trying to do that. Um, which means that we are getting more formal with how we do deal with contributors, um, how we deal with, um, uh, with, uh, the governance pieces itself, um, how we make decisions, how we record decisions,",
+      "translation": "我认为去年，所谓的代理之年，我们看到大家在构建代理；而现在我们看到大家在尝试把它们彼此连接起来。我认为我们需要慢慢观察出代理间通信在 MCP 上应该怎么运作的正确模式。我们在协议里加了一个实验性的功能，叫 tasks（任务），根据最早一批试用者给我们的经验教训，它还需要大量工作。所以我们会慢慢迭代，直到我们觉得它稳定了，到那时……哦，电脑别睡着，好了……到那时大家就可以把 MCP 用作代理间通信层。治理方面我不想讲太多，但如果你运营一个有 300 位贡献者的大型开源项目，你迟早得把事情理顺，我们正在做这件事。这意味着我们在如何对待贡献者、如何处理治理本身、如何做决定、如何记录决定上，都在变得更加正式，",
+      "confidence": "high",
+      "source_cues": [
+        "C0551",
+        "C0580"
+      ]
+    },
+    {
+      "id": "S051",
+      "order": 51,
+      "start": "00:23:07.280",
+      "end": "00:23:26.640",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "um, and we are very, very lucky to have some of the most experienced people have who have helped build up Kubernetes and the CNCF in the early days to help us now with MCP as well. Lastly, um, as part of these extensions, there's still a lot of stuff to do that MCP gets right in the enterprise.",
+      "translation": "而且我们非常幸运，有几位当年帮助建立 Kubernetes 和 CNCF 的最有经验的人，现在也在帮我们做 MCP。最后，作为这些扩展的一部分，要让 MCP 在企业里用得好，还有很多事要做。",
+      "confidence": "high",
+      "source_cues": [
+        "C0580",
+        "C0587"
+      ]
+    },
+    {
+      "id": "S052",
+      "order": 52,
+      "start": "00:23:26.640",
+      "end": "00:24:04.240",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "And there's a lot of things that enterprises really need that we still need to do. And we, these will all land as extensions that people in the enterprise can care about, and everybody else does not have to care about. These are things like attestation, like proof, um, like, uh, like, um, more IDP integrations, and other aspects, audit trails, that we want to find standardized ways, so that enterprises, um, can freely interact with partner MCP servers and have a common standard to talk about, um, some of these challenges that they need to have around, again, attestation, um, audit trails and other aspects.",
+      "translation": "企业真正需要的很多东西我们还没做。这些都会以扩展的形式落地，企业用户可以关心它们，其他人则不必关心。比如证明（attestation），也就是某种证明，更多的身份提供方（IdP）集成，还有审计记录等方面。我们想为这些找到标准化的方式，让企业可以自由地和合作伙伴的 MCP 服务器交互，并且在他们需要面对的这些问题上，比如证明、审计记录等，有一个共同的标准可以讨论。",
+      "confidence": "high",
+      "source_cues": [
+        "C0587",
+        "C0603"
+      ]
+    },
+    {
+      "id": "S053",
+      "order": 53,
+      "start": "00:24:04.240",
+      "end": "00:24:28.320",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "One of the big ones of that, for example, is coming down the line, is something we will, we are working on with Okta, uh, called cross app access, which is one of these challenges that, if at the moment using OAuth, unless you own the client, you need to, uh, have a, a knowledge worker authenticate 20 times with 20 different MCP servers.",
+      "translation": "这当中一个即将推出的大项目，是我们正与 Okta 合作的跨应用访问（Cross-App Access）。它要解决的问题是：目前用 OAuth，除非你拥有客户端，否则知识工作者需要在 20 个不同的 MCP 服务器上分别认证 20 次。",
+      "confidence": "high",
+      "source_cues": [
+        "C0603",
+        "C0612"
+      ]
+    },
+    {
+      "id": "S054",
+      "order": 54,
+      "start": "00:24:28.320",
+      "end": "00:24:52.320",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "If you built your own client, you can use token exchange, but in the absence of a real big standards how to do this correctly, if you don't own the client, you would have to do 20 login. And of course, that's unacceptable. And so, we're working on improvement of that with something called cross app access, which is effectively some form of, you can think about as like a more standardized form of doing token, uh, exchange with, uh, an MCP client.",
+      "translation": "如果你自己做客户端，可以用令牌交换（token exchange）；但在缺乏一个真正的大标准来规定如何正确做到这一点时，如果你不拥有客户端，就得登录 20 次。这当然不可接受。所以我们正在用跨应用访问来改进这一点，你可以把它理解为 MCP 客户端做令牌交换的一种更标准化的形式。",
+      "confidence": "high",
+      "source_cues": [
+        "C0612",
+        "C0624"
+      ]
+    },
+    {
+      "id": "S055",
+      "order": 55,
+      "start": "00:24:52.320",
+      "end": "00:25:16.960",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "And so this will help. This is one of these things I want to highlight, that just helps us to get to close the last, uh, last mile in terms of like hurdles at the moment around deploying MCPs in enterprise. So that's just the four, more, the four biggest areas that we are car-, caring about at the moment. There's way, way more that we want to have people work on.",
+      "translation": "这会有帮助。这是我想强调的事情之一，它能帮我们打通目前在企业部署 MCP 时遇到的最后一公里障碍。这就是我们目前最关心的四大方向。我们希望大家投入的远不止这些。",
+      "confidence": "high",
+      "source_cues": [
+        "C0624",
+        "C0633"
+      ]
+    },
+    {
+      "id": "S056",
+      "order": 56,
+      "start": "00:25:16.960",
+      "end": "00:25:38.240",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Luckily, we have, again, a community of over 300 people, uh, working on things across all the big major players. Um, but this is just a bit of a, of a, of a thing where we're going to go, which is to say that I think MCP for 2026 is really in a strong position as the dominant M-, uh, integration protocol in the industry.",
+      "translation": "幸运的是，我们有一个超过 300 人的社区，来自所有主要的大公司，在做这些事情。这只是我们方向的一个概览。也就是说，我认为 2026 年的 MCP 处在非常有利的位置，是业界占主导地位的集成协议。",
+      "confidence": "high",
+      "source_cues": [
+        "C0633",
+        "C0641"
+      ]
+    },
+    {
+      "id": "S057",
+      "order": 57,
+      "start": "00:25:38.240",
+      "end": "00:26:08.559",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "If you get some of these things right and overcome some of these hurdle, that it will remain a key piece as an integration protocol for customers, for, uh, the average knowledge work outside of technology, and nicely fit into its own mold next to CLI, skills, uh, and potentially whatever the AI, uh, industry comes up this year, um, with things to fill in the context, um, that is required to, uh, proceed with a task. Task.",
+      "translation": "如果我们把其中一些事做对、跨过这些障碍，它就会继续作为集成协议的关键一环，服务客户、服务技术行业以外的普通知识工作者，并在 CLI、skills 以及今年 AI 业界可能想出的、用来补充完成任务所需上下文的其他东西旁边，稳稳占据自己的位置。",
+      "confidence": "high",
+      "source_cues": [
+        "C0641",
+        "C0652"
+      ]
+    },
+    {
+      "id": "S058",
+      "order": 58,
+      "start": "00:26:08.559",
+      "end": "00:26:32.320",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Um, and I think connectivity is still the single most important key. The agent harnesses, there are a lot of good agent harnesses you can use out there, but the connectivity layer that is unique to you, to your customer base, to your company. Cool. And with that, I want to thank everyone. I will be around for another two hours if you have questions.",
+      "translation": "我认为连接仍然是最重要的那把钥匙。代理框架（agent harness），外面有很多好用的；但连接层是你独有的，是你的客户群、你的公司独有的。好。说到这里，我想感谢大家。接下来两个小时我都在现场，有问题可以来找我。",
+      "confidence": "high",
+      "source_cues": [
+        "C0652",
+        "C0662"
+      ]
+    },
+    {
+      "id": "S059",
+      "order": 59,
+      "start": "00:26:32.320",
+      "end": "00:26:58.880",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Um, unless there are questions now, I think we have two or three minutes. Um, so, um, with that said, thank you so much. I hope everyone goes out, uh, and builds some amazing MCP clients with progressive disclosure and code mode, uh, and, uh, continues building increasingly impressive MCP servers using our extensions like MCP apps, and using your own ingenuity, which I have been honestly quite impressed over the years.",
+      "translation": "除非现在有问题，我想我们还有两三分钟。那么，就到这里，非常感谢大家。希望大家出去之后，做出带有渐进式披露和 code mode 的出色 MCP 客户端，继续用我们的扩展（比如 MCP Apps）和你们自己的创造力，做出越来越令人惊艳的 MCP 服务器。这些年来你们的创造力真的让我相当佩服。",
+      "confidence": "high",
+      "source_cues": [
+        "C0662",
+        "C0673"
+      ]
+    },
+    {
+      "id": "S060",
+      "order": 60,
+      "start": "00:26:58.880",
+      "end": "00:27:11.990",
+      "speaker": "SPK001",
+      "speaker_candidates": [
+        "SPK001",
+        "SPK003"
+      ],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": "结尾 “Thank you.” 与主持人开口的时间相邻；致谢属于讲者结束演讲，判为讲者。",
+      "language": "en",
+      "original_text": "I did not think some of these MCP servers were possible, and I luckily or sadly don't have the creativity to come up with some of the cool I've seen you all build. Thank you.",
+      "translation": "我没想到有些 MCP 服务器能做出来；幸运或者说遗憾的是，我没有那样的创造力，想不出我见到的你们做的那些很酷的东西。谢谢。",
+      "confidence": "high",
+      "source_cues": [
+        "C0673",
+        "C0678"
+      ]
+    },
+    {
+      "id": "S061",
+      "order": 61,
+      "start": "00:27:12",
+      "end": "00:27:15.110",
+      "speaker": "SPK003",
+      "speaker_candidates": [
+        "SPK001",
+        "SPK003"
+      ],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Question? We can have time for maybe one question.",
+      "translation": "有问题吗？我们大概有时间回答一个问题。",
+      "confidence": "high",
+      "source_cues": [
+        "C0679",
+        "C0680"
+      ]
+    },
+    {
+      "id": "S062",
+      "order": 62,
+      "start": "00:27:15.120",
+      "end": "00:27:16.549",
+      "speaker": "SPK001",
+      "speaker_candidates": [
+        "SPK001",
+        "SPK003"
+      ],
+      "speaker_confidence": "medium",
+      "overlap": false,
+      "attribution_note": "字幕在这句前后都有说话人切换标记，声学证据以讲者为主，判为讲者向观众征集问题。",
+      "language": "en",
+      "original_text": "Any, any question?",
+      "translation": "有，有问题吗？",
+      "confidence": "high",
+      "source_cues": [
+        "C0681",
+        "C0681"
+      ]
+    },
+    {
+      "id": "S063",
+      "order": 63,
+      "start": "00:27:16.559",
+      "end": "00:27:34.390",
+      "speaker": "SPK003",
+      "speaker_candidates": [
+        "SPK001",
+        "SPK002",
+        "SPK003"
+      ],
+      "speaker_confidence": "high",
+      "overlap": true,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "If, yeah. So if you have, we have time for one question. So the person who can make it to the microphone first gets that opportunity. And also, guys, you are amazing audience, and also now I'm very inspired to build MCP apps. Someone get to the microphone. There we have you. Fantastic. Say who you are and say your question.",
+      "translation": "如果……对。如果大家有问题，我们有时间回答一个。谁先走到麦克风前，谁就有这个机会。还有，各位，你们是很棒的观众，而且我现在也很想去做 MCP Apps 了。谁去麦克风那里？有人了。太好了。请说一下你是谁，然后提问。",
+      "confidence": "high",
+      "source_cues": [
+        "C0682",
+        "C0690"
+      ]
+    },
+    {
+      "id": "S064",
+      "order": 64,
+      "start": "00:27:34.400",
+      "end": "00:28:00.230",
+      "speaker": "SPK002",
+      "speaker_candidates": [
+        "SPK001",
+        "SPK002"
+      ],
+      "speaker_confidence": "high",
+      "overlap": true,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Yeah. When you say extension, I cringe, and because kind of giving this power to a lot of companies to add random extensions into a protocol in the past kind of, uh, create a lot of abuse to it. Don't you, did you evaluate other ways of making the protocol evolve faster with the, the community help, maybe with the rounds of, uh, I don't know, other ways?",
+      "translation": "好。你一说“扩展”，我就有点发怵，因为过去把这种权力交给很多公司、让它们往协议里随意加扩展，往往造成了大量滥用。你们有没有评估过别的办法，让协议在社区帮助下演进得更快，比如通过几轮……我也不知道，别的方式？",
+      "confidence": "high",
+      "source_cues": [
+        "C0691",
+        "C0699"
+      ]
+    },
+    {
+      "id": "S065",
+      "order": 65,
+      "start": "00:28:00.240",
+      "end": "00:28:21.120",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Yeah. So extensions, the way extensions work is extensions really are, um, something that we work together and, ex-, like, basically have separate sub-teams that expand the protocol by themselves, but they are still vetted. They're still, like, we think, we as the MCP project says: this is the extension you should use for authentication in the enterprise.",
+      "translation": "好。扩展的运作方式是这样的：扩展实际上是我们一起协作的东西，基本上由单独的小组自行扩展协议，但它们仍然要经过审核。我们作为 MCP 项目会说：这是企业里做认证应该用的扩展。",
+      "confidence": "high",
+      "source_cues": [
+        "C0700",
+        "C0708"
+      ]
+    },
+    {
+      "id": "S066",
+      "order": 66,
+      "start": "00:28:21.120",
+      "end": "00:28:39.760",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "This is the extension you should use for MCP app. So they are vetted in a way. The only real difference is they move a little bit faster. They move independent, and if you break, you, it's hopefully within a bit more expectations, where in the core protocol they're way, way more conservative, and will be, basically, we're basically backwards compatible.",
+      "translation": "这是做 MCP App 应该用的扩展。所以它们在某种意义上是经过审核的。唯一真正的区别是它们推进得快一点，独立推进；如果出现不兼容的改动，也希望是在预期范围内。而核心协议要保守得多，基本上是向后兼容的。",
+      "confidence": "high",
+      "source_cues": [
+        "C0708",
+        "C0717"
+      ]
+    },
+    {
+      "id": "S067",
+      "order": 67,
+      "start": "00:28:39.760",
+      "end": "00:28:57.760",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "Um, and that's not true for extension. So really, it's still, we don't really allow everybody to do whatever they want. I mean, if you own both sides, client and server, you can do whatever the you want anyway. But if you're not, um, if you want to adhere to extensions, we have a set of, uh, specifications that we say these are great ways.",
+      "translation": "扩展则不是这样。所以说到底，我们并不允许每个人想干什么就干什么。当然，如果客户端和服务器两端都归你，你本来就可以随心所欲。但如果不是，如果你想遵循扩展，我们有一套规范，告诉你这些是很好的做法。",
+      "confidence": "high",
+      "source_cues": [
+        "C0717",
+        "C0726"
+      ]
+    },
+    {
+      "id": "S068",
+      "order": 68,
+      "start": "00:28:57.760",
+      "end": "00:29:11.909",
+      "speaker": "SPK001",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "If you have a web client, you want to use MCP apps. If you want to be in the enterprise, you should do this for authentication. So, it's really like a more informed way of, like, telling you what you, what you should do. That's really how we think about extensions, if that makes sense.",
+      "translation": "如果你有 Web 客户端，你会想用 MCP Apps。如果你要进入企业，认证就该这样做。所以它其实更像是一种有依据地告诉你应该怎么做的方式。这就是我们对扩展的思路，不知道这样说是否清楚。",
+      "confidence": "high",
+      "source_cues": [
+        "C0726",
+        "C0733"
+      ]
+    },
+    {
+      "id": "S069",
+      "order": 69,
+      "start": "00:29:11.919",
+      "end": "00:29:17.936",
+      "speaker": "SPK003",
+      "speaker_candidates": [],
+      "speaker_confidence": "high",
+      "overlap": false,
+      "attribution_note": null,
+      "language": "en",
+      "original_text": "I think we should probably wrap it up and get, uh... Thank you. Round of applause.",
+      "translation": "我想我们差不多该结束了……谢谢。请大家鼓掌。",
+      "confidence": "high",
+      "source_cues": [
+        "C0734",
+        "C0735"
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "id": "F001",
+      "timestamp": "00:00:08",
+      "image_path": "assets/frames/00-00-08-000.webp",
+      "related_blocks": [
+        "S001"
+      ]
+    },
+    {
+      "id": "F002",
+      "timestamp": "00:00:30",
+      "image_path": "assets/frames/00-00-30-000.webp",
+      "related_blocks": [
+        "S002",
+        "S003"
+      ]
+    },
+    {
+      "id": "F003",
+      "timestamp": "00:02:40",
+      "image_path": "assets/frames/00-02-40-000.webp",
+      "related_blocks": [
+        "S004",
+        "S005"
+      ]
+    },
+    {
+      "id": "F004",
+      "timestamp": "00:03:30",
+      "image_path": "assets/frames/00-03-30-000.webp",
+      "related_blocks": [
+        "S005",
+        "S006"
+      ]
+    },
+    {
+      "id": "F005",
+      "timestamp": "00:04:00",
+      "image_path": "assets/frames/00-04-00-000.webp",
+      "related_blocks": [
+        "S007",
+        "S008",
+        "S009"
+      ]
+    },
+    {
+      "id": "F006",
+      "timestamp": "00:05:40",
+      "image_path": "assets/frames/00-05-40-000.webp",
+      "related_blocks": [
+        "S011",
+        "S012",
+        "S013",
+        "S014",
+        "S016"
+      ]
+    },
+    {
+      "id": "F007",
+      "timestamp": "00:08:10",
+      "image_path": "assets/frames/00-08-10-000.webp",
+      "related_blocks": [
+        "S017",
+        "S018",
+        "S019",
+        "S020"
+      ]
+    },
+    {
+      "id": "F008",
+      "timestamp": "00:09:20",
+      "image_path": "assets/frames/00-09-20-000.webp",
+      "related_blocks": [
+        "S021",
+        "S022",
+        "S023",
+        "S024"
+      ]
+    },
+    {
+      "id": "F009",
+      "timestamp": "00:12:30",
+      "image_path": "assets/frames/00-12-30-000.webp",
+      "related_blocks": [
+        "S027",
+        "S028",
+        "S029"
+      ]
+    },
+    {
+      "id": "F010",
+      "timestamp": "00:13:00",
+      "image_path": "assets/frames/00-13-00-000.webp",
+      "related_blocks": [
+        "S029"
+      ]
+    },
+    {
+      "id": "F011",
+      "timestamp": "00:13:40",
+      "image_path": "assets/frames/00-13-40-000.webp",
+      "related_blocks": [
+        "S030",
+        "S031",
+        "S032",
+        "S033",
+        "S035"
+      ]
+    },
+    {
+      "id": "F012",
+      "timestamp": "00:16:19",
+      "image_path": "assets/frames/00-16-19-000.webp",
+      "related_blocks": [
+        "S037"
+      ]
+    },
+    {
+      "id": "F013",
+      "timestamp": "00:16:50",
+      "image_path": "assets/frames/00-16-50-000.webp",
+      "related_blocks": [
+        "S038",
+        "S039",
+        "S040"
+      ]
+    },
+    {
+      "id": "F014",
+      "timestamp": "00:17:50",
+      "image_path": "assets/frames/00-17-50-000.webp",
+      "related_blocks": [
+        "S040",
+        "S041"
+      ]
+    },
+    {
+      "id": "F015",
+      "timestamp": "00:18:50",
+      "image_path": "assets/frames/00-18-50-000.webp",
+      "related_blocks": [
+        "S042",
+        "S043"
+      ]
+    },
+    {
+      "id": "F016",
+      "timestamp": "00:20:08",
+      "image_path": "assets/frames/00-20-08-000.webp",
+      "related_blocks": [
+        "S044",
+        "S045"
+      ]
+    },
+    {
+      "id": "F017",
+      "timestamp": "00:20:40",
+      "image_path": "assets/frames/00-20-40-000.webp",
+      "related_blocks": [
+        "S047",
+        "S048",
+        "S049",
+        "S050",
+        "S051",
+        "S052"
+      ]
+    },
+    {
+      "id": "F018",
+      "timestamp": "00:24:20",
+      "image_path": "assets/frames/00-24-20-000.webp",
+      "related_blocks": [
+        "S053",
+        "S054"
+      ]
+    },
+    {
+      "id": "F019",
+      "timestamp": "00:26:40",
+      "image_path": "assets/frames/00-26-40-000.webp",
+      "related_blocks": [
+        "S058",
+        "S059"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "kind": "transcript",
+      "start": null,
+      "end": null,
+      "detail": "原文来自 YouTube 自动字幕（视频没有人工字幕）。产品名、人名和明显的误识别已按幻灯片和上下文更正；讲者口语中的重复、改口和不完整的句子按原样保留。"
+    },
+    {
+      "kind": "speaker",
+      "start": "00:27:12",
+      "end": "00:29:17",
+      "detail": "主持人和提问观众没有自我介绍，按角色称呼。"
+    }
+  ]
+}
