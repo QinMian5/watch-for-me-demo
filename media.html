@@ -502,7 +502,7 @@ window.addEventListener('popstate', e => {
    The line moves to the pane's top at the top of the page and to its bottom near the end, so the first and last paragraphs get a turn.
    An anchor pairs a Notes paragraph with the first block it cites, or its first frame when it has no cites.
    A longest increasing subsequence drops out-of-order paragraphs, such as a closing unit that cites earlier blocks. */
-let syncAnch = null, ease = null, master = null, syncTick = false;
+let syncAnch = null, ease = null, master = null, syncTick = false, syncHold = false;
 const LINE = .4;
 function lineGeom(pane) { const H = pane.clientHeight, max = pane.scrollHeight - H, k = max > 0 ? Math.min(1, max / H) : 1, y = H * LINE; return {H, max, k, y, a: y * k, b: (H - y) * k}; }
 function lineAt(pane, s) { const g = lineGeom(pane), rest = g.max - s; return s + (s < g.a ? s / g.k : rest < g.b ? g.H - rest / g.k : g.y); }
@@ -608,7 +608,7 @@ function initSync() {
   const L = document.querySelector('.pane-notes'), R = document.querySelector('.pane-reader'); if (!L) return;
   [L, R].forEach(pane => {
     ['wheel', 'touchstart', 'pointerdown', 'keydown', 'mouseenter'].forEach(ev => pane.addEventListener(ev, () => { master = pane; }, {passive: true}));
-    pane.addEventListener('scroll', () => { if (master !== pane || syncTick) return; syncTick = true; requestAnimationFrame(() => { syncTick = false; syncFrom(pane); }); }, {passive: true});
+    pane.addEventListener('scroll', () => { if (master !== pane || syncTick || syncHold) return; syncTick = true; requestAnimationFrame(() => { syncTick = false; syncFrom(pane); }); }, {passive: true});
   });
   /* Anything that changes layout (language, filter, images, window width) invalidates the anchors. */
   const ro = new ResizeObserver(() => { syncAnch = null; });
@@ -910,10 +910,21 @@ function keepReaderPlace(change) {
     const now = block.getBoundingClientRect();
     scroller.scrollTop += now.top - (share ? top - share * now.height : before);
   };
+  /* Restoring the transcript must not scroll the notes: hold sync, then ease from where both panes are, as after a link jump. */
+  const split = isSplit(), notes = document.querySelector('.pane-notes');
+  if (split) syncHold = true;
   scroller.style.overflowAnchor = 'none';
   change(); fix();
   /* Off-screen turns keep placeholder heights until laid out, which can cap the first correction. */
-  requestAnimationFrame(() => { fix(); scroller.style.overflowAnchor = ''; });
+  requestAnimationFrame(() => {
+    fix(); scroller.style.overflowAnchor = '';
+    if (!split) return;
+    requestAnimationFrame(() => {
+      syncAnch = buildAnchors();
+      if (master === pane) ease = startEase(pane, notes, lineAt(pane, pane.scrollTop));
+      syncHold = false;
+    });
+  });
 }
 function rerenderChrome() {
   const old = document.querySelector('.hdr'); const q = document.getElementById('q'); const had = document.activeElement === q;
