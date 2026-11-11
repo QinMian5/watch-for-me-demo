@@ -24,6 +24,3 @@ Live example output of Watch for Me: Chinese notes and a bilingual English–Chi
 | `notes.json` | 笔记，每段都引用全文里的段落 |
 | `source_map.md` | 给 agent 读的全文副本 |
 | `assets/frames/` | 幻灯片关键帧 |
-| `add_attribution.py` | 在阅读页顶部加上署名行 |
-
-修改 `source_map.json` 或 `notes.json` 后，先用 Watch for Me 重新渲染，再运行 `python3 add_attribution.py` 补回署名行。
