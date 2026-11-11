@@ -117,14 +117,16 @@ details.pop>summary::-webkit-details-marker{display:none}
 [data-lang=both] .pane-reader .col{max-width:1100px}
 .split{display:block}
 @media (min-width:1100px){
-  body.is-split{height:100dvh;overflow:hidden;display:flex;flex-direction:column}
-  body.is-split #app{display:flex;flex-direction:column;min-height:0;flex:1}
-  body.is-split .split{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr)}
+  body.is-split .split{height:calc(100dvh - var(--hdr-h,0px));display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr)}
   body.is-split .pane{overflow:auto;min-height:0}
+  body.is-split.band-in .pane{overflow:hidden}
+  body.is-split .band{border-bottom:1px solid var(--line)}
+  body.is-split .band .col{max-width:760px;padding:14px 20px 10px}
   body.is-split .pane-notes{border-right:1px solid var(--line)}
   body.is-split .col{max-width:none;padding:14px 20px 110px}
   body.is-split .frame{max-width:320px}
   body.is-split .pane-notes .frame{display:none}
+  body.is-split .nsec-title .sec-time{display:none}
   body.is-split .turn{content-visibility:visible}
   body.is-split .linked{background:var(--tint)}
 }
@@ -436,11 +438,17 @@ function renderPara(p, ui, pi) {
   paraEls.set(`${ui}.${pi}`, el);
   return el;
 }
+/* The orientation cites nothing, so beside the Transcript it has no partner; the wide layout shows it across both panes. */
+let orientEls = [];
+const hasOrient = () => NOTES.units.length > 1 && NOTES.units[0].paragraphs.every(p => !(p.cites || []).length && !(p.frames || []).length);
 function renderNotes() {
   const col = h('div', {class: 'col'});
+  orientEls = [];
   const unit = (ui, tag) => {
-    col.append(h(tag, {'data-unit': ui}, h('span', {class: 'tx', text: NOTES.units[ui].heading})));
-    NOTES.units[ui].paragraphs.forEach((p, pi) => col.append(renderPara(p, ui, pi)));
+    const els = [h(tag, {'data-unit': ui}, h('span', {class: 'tx', text: NOTES.units[ui].heading})),
+      ...NOTES.units[ui].paragraphs.map((p, pi) => renderPara(p, ui, pi))];
+    if (ui === 0 && hasOrient()) orientEls = els;
+    col.append(...els);
   };
   noteGroups().groups.forEach(g => {
     if (g.sec == null) { g.units.forEach(ui => unit(ui, 'h2')); return; }
@@ -587,12 +595,15 @@ function refreshLinked() {
 /* A contents jump puts the heading on the reading line, makes it current, and aligns the other pane. */
 function jumpToHeading(pane, el) {
   if (!isSplit()) { el.scrollIntoView({block: 'start'}); return; }
+  if (el.closest('.band')) { ease = null; document.querySelectorAll('.pane').forEach(p => { p.scrollTop = 0; }); scrollTo(0, 0); bandState(); return; }
+  bandAway();
   ease = null; syncAnch = null;
   master = pane; pane.scrollTop = scrollForLine(pane, yIn(pane, el.querySelector('h2') || el)); syncFrom(pane);
 }
 /* A link scrolls only the other pane, putting the target beside the clicked paragraph or block, or higher if the target would end below view.
    The next scroll in either pane then eases back to the usual alignment instead of snapping. */
 function jumpBeside(el, src) {
+  bandAway();
   const pane = el.closest('.pane'), from = src.closest('.pane'), srcEl = src.closest('.block,.para');
   const top = Math.max(srcEl.getBoundingClientRect().top, from.getBoundingClientRect().top);
   pane.scrollTop += headOf(el).getBoundingClientRect().top - top;
@@ -833,7 +844,7 @@ function rangesIn(el, needle) {
 }
 function panes() {
   const r = document.querySelector('.pane-reader'), c = document.querySelector('.pane-notes');
-  if (isSplit()) return c ? [c, r] : [r];
+  if (isSplit()) return c ? [document.getElementById('band'), c, r] : [r];
   return [S.view === 'notes' && c ? c : r];
 }
 function runFilters() {
@@ -893,8 +904,32 @@ function applyPanes() {
   const ls = document.getElementById('langseg'); if (ls) ls.hidden = !split && S.view !== 'reader';
   const seg = tabs && tabs.querySelectorAll('button');
   if (seg && seg.length) { seg[0].setAttribute('aria-pressed', String(S.view === 'notes')); seg[1].setAttribute('aria-pressed', String(S.view === 'reader')); }
+  placeOrient(split);
   showBack();
 }
+/* In the wide layout the page scrolls the band away first; until then the panes stay put and the wheel moves the page. */
+const hdrSize = new ResizeObserver(() => sizeSplit());
+function placeOrient(split) {
+  const band = document.getElementById('band'), c = document.querySelector('.pane-notes');
+  if (!band || !orientEls.length) return;
+  const home = split ? band.firstElementChild : c.firstElementChild;
+  if (orientEls[0].parentNode !== home) split ? home.append(...orientEls) : home.prepend(...orientEls);
+  band.hidden = !split;
+  hdrSize.disconnect(); hdrSize.observe(document.querySelector('.hdr'));
+  sizeSplit();
+}
+function sizeSplit() {
+  const hdr = document.querySelector('.hdr');
+  if (hdr) document.body.style.setProperty('--hdr-h', `${hdr.getBoundingClientRect().height}px`);
+  bandState();
+}
+function bandIn() {
+  const band = document.getElementById('band');
+  return isSplit() && band && !band.hidden && band.getBoundingClientRect().bottom > document.querySelector('.hdr').getBoundingClientRect().bottom + 1;
+}
+function bandState() { document.body.classList.toggle('band-in', !!bandIn()); }
+function bandAway() { if (bandIn()) { scrollTo(0, document.scrollingElement.scrollHeight); bandState(); } }
+addEventListener('scroll', bandState, {passive: true});
 /* Switching language changes every paragraph's height; keep the topmost visible reader block where it was. */
 function keepReaderPlace(change) {
   const pane = document.querySelector('.pane-reader'), scroller = isSplit() ? pane : document.scrollingElement;
@@ -939,7 +974,8 @@ function render() {
   const main = h('main', {class: 'split'},
     NOTES ? h('section', {class: 'pane pane-notes'}, renderNotes()) : null,
     h('section', {class: 'pane pane-reader'}, renderReader()));
-  document.getElementById('app').replaceChildren(renderHeader(), main);
+  const band = h('section', {class: 'band', id: 'band', hidden: true}, h('div', {class: 'col'}));
+  document.getElementById('app').replaceChildren(renderHeader(), band, main);
   applyPanes(); initSync(); runFilters();
 }
 
